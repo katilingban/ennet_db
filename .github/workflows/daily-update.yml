@@ -25,9 +25,9 @@ jobs:
           
       - name: Install dependencies
         run: |
-          install.packages(c("remotes", "magrittr", "rvest", "xml2", "tibble",
-                             "dplyr", "stringr", "lubridate"))
-          remotes::install_github("katilingban/ennet@dev")
+          install.packages(c("remotes", "magrittr", "rvest", "xml2", 
+                             "tibble", "dplyr", "stringr", "lubridate"))
+          remotes::install_github("katilingban/ennet")
         shell: Rscript {0}
 
       - name: Extract topics and discussions
