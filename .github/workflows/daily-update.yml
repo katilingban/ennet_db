@@ -2,14 +2,14 @@ name: en-net daily update
 
 on:
   schedule:
-  - cron: "0 * * * *"
+  - cron: "30 5 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
 
       - name: Extract en-net discussions for the day
         run: Rscript ennet_db.R
