@@ -1,5 +1,6 @@
 ## Libraries
 if(!require(ennet)) install.packages("ennet")
+remotes::install_github("katilingban/ennet@dev")
 if(!require(magrittr)) install.packages("magrittr")
 
 ## 
