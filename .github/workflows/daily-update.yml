@@ -2,11 +2,11 @@ name: ennet daily update
 
 on:
   schedule:
-    - cron: "30 * * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         r-version: [4.0.3]
@@ -19,6 +19,13 @@ jobs:
         with:
           r-version: ${{ matrix.r-version }}
           
+      - name: Install system dependencies
+        run: |
+          while read -r cmd
+          do
+            eval sudo $cmd
+          done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "20.04"))')
+          
       - name: Install dependencies
         run: |
           install.packages(c("remotes", "magrittr", "rvest", "xml2", "tibble",
@@ -29,5 +36,16 @@ jobs:
       - name: Extract en-net discussions for the day
         run: Rscript ennet_db.R
 
-
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "extract new ennet discussions" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          
 
