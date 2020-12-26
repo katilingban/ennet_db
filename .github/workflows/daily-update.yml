@@ -30,7 +30,7 @@ jobs:
           remotes::install_github("katilingban/ennet@dev")
         shell: Rscript {0}
 
-      - name: Extract
+      - name: Extract topics and discussions
         run: Rscript ennet_db.R
 
       - name: Commit changes
