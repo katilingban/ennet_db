@@ -1,14 +1,13 @@
 name: ennet daily update
 
 on:
-  push:
-    branches: [ main ]
   schedule:
     - cron: "0 0 * * *"
 
 jobs:
-  build:
+  ennet-daily-updates:
     runs-on: ubuntu-20.04
+    
     strategy:
       matrix:
         r-version: [4.0.3]
@@ -31,7 +30,7 @@ jobs:
           remotes::install_github("katilingban/ennet@dev")
         shell: Rscript {0}
 
-      - name: Extract en-net discussions for the day
+      - name: Extract
         run: Rscript ennet_db.R
 
       - name: Commit changes
