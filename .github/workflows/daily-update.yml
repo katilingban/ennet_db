@@ -2,7 +2,7 @@ name: ennet daily update
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "5 * * * *"
 
 jobs:
   ennet-daily-updates:
