@@ -2,7 +2,7 @@ name: en-net daily update
 
 on:
   schedule:
-  - cron: "18 5 * * *"
+  - cron: "30 * * * *"
 
 jobs:
   build:
@@ -10,6 +10,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
+      
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v1
 
       - name: Extract en-net discussions for the day
         run: Rscript ennet_db.R
