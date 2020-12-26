@@ -22,11 +22,7 @@ jobs:
           r-version: ${{ matrix.r-version }}
           
       - name: Install system dependencies
-        run: |
-          while read -r cmd
-          do
-            eval sudo $cmd
-          done < <(Rscript -e 'writeLines(remotes::system_requirements("ubuntu", "20.04"))')
+        run: sudo apt install libcurl4-openssl-dev
           
       - name: Install dependencies
         run: |
