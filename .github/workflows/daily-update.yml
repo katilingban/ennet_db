@@ -2,7 +2,7 @@ name: en-net daily update
 
 on:
   schedule:
-  - cron: "30 5 * * *"
+  - cron: "18 5 * * *"
 
 jobs:
   build:
