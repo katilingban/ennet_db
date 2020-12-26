@@ -1,22 +1,33 @@
-name: en-net daily update
+name: ennet daily update
 
 on:
   schedule:
-    - cron: "15 * * * *"
+    - cron: "30 * * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        r-version: [4.0.3]
 
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       
-      - name: Setup R
+      - name: Setup R ${{ matrix.r-version }}
         uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: ${{ matrix.r-version }}
+          
+      - name: Install dependencies
+        run: |
+          install.packages(c("remotes", "magrittr", "rvest", "xml2", "tibble",
+                             "dplyr", "stringr", "lubridate"))
+          remotes::install_github("katilingban/ennet@dev")
+        shell: Rscript {0}
 
       - name: Extract en-net discussions for the day
-        run: install.packages("remotes")
-        shell: Rscript ennet_db.R
+        run: Rscript ennet_db.R
 
 
 
