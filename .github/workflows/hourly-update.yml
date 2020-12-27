@@ -1,4 +1,4 @@
-name: ennet hourly update
+name: ennet_hourly_update
 
 on:
   schedule:
