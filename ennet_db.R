@@ -12,9 +12,12 @@ if(!require(ennet)) install.packages("ennet")
 remotes::install_github("katilingban/ennet@dev")
 
 ## 
+#x <- ennet::get_themes() %>%
+#  ennet::get_themes_topics() %>%
+#  ennet::get_topics_discussions()
+
 x <- ennet::get_themes() %>%
-  ennet::get_themes_topics() %>%
-  ennet::get_topics_discussions()
+  ennet::get_themes_topics()
 
 ## Get current date and time
 current_date_time <- Sys.time()
