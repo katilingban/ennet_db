@@ -1,8 +1,6 @@
 name: ennet daily update
 
 on:
-  push:
-    branch: [ main ]
   schedule:
     - cron: "0 * * * *"
 
