@@ -12,20 +12,17 @@ if(!require(ennet)) install.packages("ennet")
 remotes::install_github("katilingban/ennet@dev")
 
 ## 
-#x <- ennet::get_themes() %>%
-#  ennet::get_themes_topics() %>%
-#  ennet::get_topics_discussions()
-
 x <- ennet::get_themes() %>%
-  ennet::get_themes_topics()
+  ennet::get_themes_topics() %>%
+  ennet::get_topics_discussions()
 
 ## Get current date and time
-current_date_time <- Sys.time()
+current_date <- Sys.Date()
 
 ##
 write.csv(x = x,
           file = paste("data/ennet_discussions_",
-                       current_date_time,
+                       current_date,
                        ".csv",
                        sep = ""),
           row.names = FALSE)
