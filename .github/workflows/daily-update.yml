@@ -1,4 +1,4 @@
-name: ennet daily update
+name: ennet_daily_update
 
 on:
   schedule:
@@ -38,7 +38,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "extract new ennet discussions" -a
+          git diff-index --quiet HEAD || git commit -m "extract new ennet discussions" -a
           
       - name: Push changes
         uses: ad-m/github-push-action@master
