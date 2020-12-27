@@ -15,14 +15,8 @@ remotes::install_github("katilingban/ennet")
 x <- ennet::get_themes() %>%
   ennet::get_themes_topics() %>%
   ennet::get_topics_discussions()
-
-## Get current date and time
-current_date <- Sys.Date()
-
+                                                                
 ##
 write.csv(x = x,
-          file = paste("data/ennet_discussions_",
-                       current_date,
-                       ".csv",
-                       sep = ""),
+          file = "data/ennet_discussions.csv",
           row.names = FALSE)
