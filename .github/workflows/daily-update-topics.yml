@@ -1,11 +1,11 @@
-name: ennet_daily_update
+name: ennet_daily_topics
 
 on:
   schedule:
     - cron: "0 5 * * *"
 
 jobs:
-  ennet-daily-updates:
+  ennet-daily-topics:
     runs-on: ubuntu-20.04
     
     strategy:
