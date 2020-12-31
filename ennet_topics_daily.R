@@ -11,18 +11,22 @@ if(!require(lubridate)) install.packages("lubridate")
 if(!require(ennet)) install.packages("ennet")
 remotes::install_github("katilingban/ennet")
 
+## Combine hourly data per day
+data_date <- Sys.Date() - 1
+
 ##
-fn <- list.files(path = "data", pattern = "ennet_topics")
+fn <- list.files(path = "data", pattern = as.character(data_date))
 
 ts <- fn %>% 
   stringr::str_remove_all(pattern = "ennet_topics_|.csv") %>%
-  lubridate::as_datetime()
+  lubridate::as_datetime() %>%
+  stringr::str_replace_all(pattern = " ", replacement = "_")
 
 x <- read.csv(file = paste("data", fn[1], sep = "/"))
 
 x <- x[c(1, 2, 4, 5, 6, 3, 7)]
 
-x <- data.frame(x, Extracted = ts[1])
+names(x)[6:7] <- paste(names(x)[6:7], ts[1], sep = "_")
 
 ##
 for (i in fn[2:length(fn)]) {
@@ -30,14 +34,14 @@ for (i in fn[2:length(fn)]) {
   
   y <- y[c(1, 2, 4, 5, 6, 3, 7)]
   
-  y <- data.frame(y, Extracted = ts[fn == i])
+  names(y)[6:7] <- paste(names(y)[6:7], ts[fn == i], sep = "_")
   
-  x <- rbind(x, y)
+  x <- dplyr::full_join(x = x, y = y, by = c("Theme", "Topic", "Author", "Posted", "Link"))
 }
 
 ##
 write.csv(x = x,
-          file = "data/ennet_topics.csv",
+          file = paste("data/ennet_topics_", data_date, ".csv", sep = ""),
           row.names = FALSE)
 
 ## Remove hourlies
