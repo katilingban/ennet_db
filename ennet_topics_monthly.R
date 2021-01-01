@@ -12,36 +12,36 @@ if(!require(ennet)) install.packages("ennet")
 remotes::install_github("katilingban/ennet")
 
 ## Combine hourly data per day
-data_month <- months(Sys.Date() - 1)
+data_year <- lubridate::year(Sys.Date() - 1)
+data_month <- lubridate::month(Sys.Date() - 1)
+data_days <- stringr::str_pad(string = 1:lubridate::days_in_month(data_month), 
+                              width = 2, side = "left", pad = "0")
+
 
 ##
-fn <- list.files(path = "data", pattern = as.character(data_date))
+data_dates <- paste(data_year, 
+                    data_month %>% 
+                      stringr::str_pad(width = 2, side = "left", pad = "0"), 
+                    data_days, sep = "-")
 
-ts <- fn %>% 
-  stringr::str_remove_all(pattern = "ennet_topics_|.csv") %>%
-  lubridate::as_datetime() %>%
-  stringr::str_replace_all(pattern = " ", replacement = "_")
+##
+fn <- list.files(path = "data")
+fn <- fn[fn %in% paste("ennet_topics_", data_dates, ".csv", sep = "")]
 
 x <- read.csv(file = paste("data", fn[1], sep = "/"))
-
-x <- x[c(1, 2, 4, 5, 6, 3, 7)]
-
-names(x)[6:7] <- paste(names(x)[6:7], ts[1], sep = "_")
 
 ##
 for (i in fn[2:length(fn)]) {
   y <- read.csv(file = paste("data", i, sep = "/"))
-  
-  y <- y[c(1, 2, 4, 5, 6, 3, 7)]
-  
-  names(y)[6:7] <- paste(names(y)[6:7], ts[fn == i], sep = "_")
   
   x <- dplyr::full_join(x = x, y = y, by = c("Theme", "Topic", "Author", "Posted", "Link"))
 }
 
 ##
 write.csv(x = x,
-          file = paste("data/ennet_topics_", data_date, ".csv", sep = ""),
+          file = paste("data/ennet_topics_", 
+                       month.name[as.integer(data_month)], "_", 
+                       data_year, ".csv", sep = ""),
           row.names = FALSE)
 
 ## Remove hourlies
