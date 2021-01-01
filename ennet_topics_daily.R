@@ -39,6 +39,10 @@ for (i in fn[2:length(fn)]) {
   x <- dplyr::full_join(x = x, y = y, by = c("Theme", "Topic", "Author", "Posted", "Link"))
 }
 
+## Rename fields
+names(x) <- names(x) %>% 
+  stringr::str_replace_all(pattern = "\\-|\\:", replacement = "")
+
 ##
 write.csv(x = x,
           file = paste("data/ennet_topics_", data_date, ".csv", sep = ""),
