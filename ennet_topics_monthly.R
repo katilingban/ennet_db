@@ -45,4 +45,4 @@ write.csv(x = x,
           row.names = FALSE)
 
 ## Remove hourlies
-file.remove(paste("data", fn, sep = "/"))
+#file.remove(paste("data", fn, sep = "/"))
