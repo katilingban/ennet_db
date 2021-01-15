@@ -31,7 +31,9 @@ jobs:
         shell: Rscript {0}
 
       - name: Process hourly topics data to daily
-        run: Rscript ennet_topics_daily.R
+        run: |
+          Rscript ennet_topics_daily.R
+          Rscript ennet_topics_monthly.R
 
       - name: Commit changes
         run: |
