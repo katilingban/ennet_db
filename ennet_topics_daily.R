@@ -14,10 +14,10 @@ remotes::install_github("katilingban/ennet")
 ## Combine hourly data per day
 data_date <- Sys.Date() - 1
 
-##
+## Get filenames of dailies
 fn <- list.files(path = "data", pattern = as.character(data_date))
 
-x <- create_db_topics_daily(.date = data_date, fn = "ennet_topics_2021-01-14")
+x <- create_db_topics_daily(.date = data_date, fn = fn)
 
 #ts <- fn %>% 
 #  stringr::str_remove_all(pattern = "ennet_topics_|.csv") %>%
