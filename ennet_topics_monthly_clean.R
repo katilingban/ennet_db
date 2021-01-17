@@ -11,7 +11,7 @@ if(!require(lubridate)) install.packages("lubridate")
 if(!require(ennet)) install.packages("ennet")
 remotes::install_github("katilingban/ennet")
 
-x <- create_db_topics_monthly(.date = Sys.Date())
+#x <- create_db_topics_monthly(.date = Sys.Date())
 
 ## Combine hourly data per day
 #data_year <- lubridate::year(Sys.Date() - 1)
@@ -40,11 +40,27 @@ x <- create_db_topics_monthly(.date = Sys.Date())
 #}
 
 ##
-write.csv(x = x,
-          file = paste("data/ennet_topics_", 
-                       months(Sys.Date()), "_", 
-                       year(Sys.Date()), ".csv", sep = ""),
-          row.names = FALSE)
+#write.csv(x = x,
+#          file = paste("data/ennet_topics_", 
+#                       months(Sys.Date()), "_", 
+#                       year(Sys.Date()), ".csv", sep = ""),
+#          row.names = FALSE)
+
+data_dates <- paste(year(Sys.Date() - 1),
+                    stringr::str_pad(month(Sys.Date() - 1),
+                                     width = 2,
+                                     side = "left",
+                                     pad = "0"),
+                    stringr::str_pad(seq(from = 1,
+                                         to = lubridate::days_in_month(Sys.Date() - 1),
+                                         by = 1),
+                                     width = 2,
+                                     side = "left",
+                                     pad = "0"),
+                    sep = "-")
+
+## Detect filenames of hourly datasets in ennet_db required based on .date
+fn <- paste("ennet_topics_", data_dates, ".csv", sep = "")
 
 ## Remove hourlies
-#file.remove(paste("data", fn, sep = "/"))
+file.remove(paste("data", fn, sep = "/"))
