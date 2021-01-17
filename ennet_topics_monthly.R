@@ -42,8 +42,8 @@ x <- create_db_topics_monthly(.date = Sys.Date())
 ##
 write.csv(x = x,
           file = paste("data/ennet_topics_", 
-                       month.name[as.integer(data_month)], "_", 
-                       data_year, ".csv", sep = ""),
+                       months(Sys.Date()), "_", 
+                       year(Sys.Date()), ".csv", sep = ""),
           row.names = FALSE)
 
 ## Remove hourlies
