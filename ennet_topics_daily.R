@@ -19,32 +19,6 @@ fn <- list.files(path = "data", pattern = as.character(data_date))
 
 x <- create_db_topics_daily(.date = data_date, fn = fn)
 
-#ts <- fn %>% 
-#  stringr::str_remove_all(pattern = "ennet_topics_|.csv") %>%
-#  lubridate::as_datetime() %>%
-#  stringr::str_replace_all(pattern = " ", replacement = "_")
-
-#x <- read.csv(file = paste("data", fn[1], sep = "/"))
-
-#x <- x[c(1, 2, 4, 5, 6, 3, 7)]
-
-#names(x)[6:7] <- paste(names(x)[6:7], ts[1], sep = "_")
-
-##
-#for (i in fn[2:length(fn)]) {
-#  y <- read.csv(file = paste("data", i, sep = "/"))
-#  
-#  y <- y[c(1, 2, 4, 5, 6, 3, 7)]
-#  
-#  names(y)[6:7] <- paste(names(y)[6:7], ts[fn == i], sep = "_")
-#  
-#  x <- dplyr::full_join(x = x, y = y, by = c("Theme", "Topic", "Author", "Posted", "Link"))
-#}
-
-### Rename fields
-#names(x) <- names(x) %>% 
-#  stringr::str_replace_all(pattern = "\\-|\\:", replacement = "")
-
 ##
 write.csv(x = x,
           file = paste("data/ennet_topics_", data_date, ".csv", sep = ""),
@@ -52,3 +26,15 @@ write.csv(x = x,
 
 ## Remove hourlies
 file.remove(paste("data", fn, sep = "/"))
+
+## Combine daily data per month
+x <- create_db_topics_monthly(.date = data_date)
+
+write.csv(x = x,
+          file = paste("data/ennet_topics_", 
+                       months(data_date), "_", 
+                       year(data_date), ".csv", sep = ""),
+          row.names = FALSE)
+
+## Remove hourlies
+#file.remove(paste("data", fn, sep = "/"))
