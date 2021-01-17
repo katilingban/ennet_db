@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 ![](https://img.shields.io/badge/version-prerelease-orange)
-[![](https://img.shields.io/badge/license-GPL3-blue)](https://github.com/katilingban/ennet_db/blob/master/LICENSE.md)
+[![](https://img.shields.io/badge/license-GPLv3-blue)](https://github.com/katilingban/ennet_db/blob/master/LICENSE.md)
 [![ennet_daily_update](https://github.com/katilingban/ennet_db/workflows/ennet_daily_update/badge.svg)](https://github.com/katilingban/ennet_db/actions?query=workflow%3Aennet_daily_update)
 [![ennet_hourly_update](https://github.com/katilingban/ennet_db/workflows/ennet_hourly_update/badge.svg)](https://github.com/katilingban/ennet_db/actions?query=workflow%3Aennet_hourly_update)
 [![DOI](https://zenodo.org/badge/324514598.svg)](https://zenodo.org/badge/latestdoi/324514598)
