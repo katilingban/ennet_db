@@ -36,5 +36,29 @@ write.csv(x = x,
                        year(data_date), ".csv", sep = ""),
           row.names = FALSE)
 
+## Create daily, weekly, monthly and yearly interactions datasets
+dailies <- create_db_topics_hourlies() %>%
+  create_db_topics_dailies()
+
+daily_interactions <- create_db_topics_daily_interactions(dailies)
+write.csv(x = daily_interactions,
+          file = "data/ennet_topics_daily_interactions.csv",
+          row.names = FALSE)
+
+weekly_interactions <- create_db_topics_weekly_interactions(dailies)
+write.csv(x = weekly_interactions,
+          file = "data/ennet_topics_weekly_interactions.csv",
+          row.names = FALSE)
+
+monthly_interactions <- create_db_topics_monthly_interactions(dailies)
+write.csv(x = monthly_interactions,
+          file = "data/ennet_topics_monthly_interactions.csv",
+          row.names = FALSE)
+
+yearly_interactions <- create_db_topics_yearly_interactions(dailies)
+write.csv(x = yearly_interactions,
+          file = "data/ennet_topics_yearly_interactions.csv",
+          row.names = FALSE)
+
 ## Remove hourlies
 #file.remove(paste("data", fn, sep = "/"))
