@@ -40,22 +40,22 @@ write.csv(x = x,
 dailies <- create_db_topics_hourlies() %>%
   create_db_topics_dailies()
 
-daily_interactions <- create_db_topics_daily_interactions(dailies)
+daily_interactions <- create_db_topics_interactions(dailies, id = "daily")
 write.csv(x = daily_interactions,
           file = "data/ennet_topics_daily_interactions.csv",
           row.names = FALSE)
 
-weekly_interactions <- create_db_topics_weekly_interactions(dailies)
+weekly_interactions <- create_db_topics_interactions(dailies, id = "weekly")
 write.csv(x = weekly_interactions,
           file = "data/ennet_topics_weekly_interactions.csv",
           row.names = FALSE)
 
-monthly_interactions <- create_db_topics_monthly_interactions(dailies)
+monthly_interactions <- create_db_topics_interactions(dailies, id = "monthly")
 write.csv(x = monthly_interactions,
           file = "data/ennet_topics_monthly_interactions.csv",
           row.names = FALSE)
 
-yearly_interactions <- create_db_topics_yearly_interactions(dailies)
+yearly_interactions <- create_db_topics_interactions(dailies, id = "yearly")
 write.csv(x = yearly_interactions,
           file = "data/ennet_topics_yearly_interactions.csv",
           row.names = FALSE)
