@@ -1,0 +1,47 @@
+name: ennet_monthly_topics
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+
+jobs:
+  ennet-daily-topics:
+    runs-on: ubuntu-20.04
+    
+    strategy:
+      matrix:
+        r-version: [4.0.3]
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Setup R ${{ matrix.r-version }}
+        uses: r-lib/actions/setup-r@v1
+        with:
+          r-version: ${{ matrix.r-version }}
+          
+      - name: Install system dependencies
+        run: sudo apt install libcurl4-openssl-dev
+          
+      - name: Install dependencies
+        run: |
+          install.packages(c("remotes", "magrittr", "rvest", "xml2", 
+                             "tibble", "dplyr", "stringr", "lubridate"))
+          remotes::install_github("katilingban/ennet")
+        shell: Rscript {0}
+
+      - name: Process hourly topics data to daily
+        run: Rscript ennet_topics_monthly.R
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "process hourly topics data to daily" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: "main"
