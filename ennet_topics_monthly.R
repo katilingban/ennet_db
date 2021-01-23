@@ -12,7 +12,7 @@ if(!require(ennet)) install.packages("ennet")
 remotes::install_github("katilingban/ennet")
 
 ## Combine hourly data per day
-data_date <- Sys.Date() - 1
+data_date <- Sys.Date() - 2
 
 ## Combine daily data per month
 x <- create_db_topics_monthly(.date = data_date)
