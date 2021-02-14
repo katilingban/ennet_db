@@ -1,11 +1,11 @@
-name: ennet_daily_topics
+name: ennet_yearlies
 
 on:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "0 6 * * *"
 
 jobs:
-  ennet-daily-topics:
+  ennet-yearlies:
     runs-on: ubuntu-20.04
     
     strategy:
@@ -30,15 +30,15 @@ jobs:
           remotes::install_github("katilingban/ennet")
         shell: Rscript {0}
 
-      - name: Process hourly topics data to daily
-        run: Rscript ennet_topics_daily.R
+      - name: Process yearlies
+        run: Rscript ennet_yearlies.R
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git diff-index --quiet HEAD || git commit -m "process hourly topics data to daily" -a
+          git diff-index --quiet HEAD || git commit -m "process yearlies" -a
           
       - name: Push changes
         uses: ad-m/github-push-action@master
