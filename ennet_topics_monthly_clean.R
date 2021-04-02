@@ -46,13 +46,13 @@ remotes::install_github("katilingban/ennet")
 #                       year(Sys.Date()), ".csv", sep = ""),
 #          row.names = FALSE)
 
-data_dates <- paste(year(Sys.Date() - 1),
-                    stringr::str_pad(month(Sys.Date() - 1),
+data_dates <- paste(year(Sys.Date() - 2),
+                    stringr::str_pad(month(Sys.Date() - 2),
                                      width = 2,
                                      side = "left",
                                      pad = "0"),
                     stringr::str_pad(seq(from = 1,
-                                         to = lubridate::days_in_month(Sys.Date() - 1),
+                                         to = lubridate::days_in_month(Sys.Date() - 2),
                                          by = 1),
                                      width = 2,
                                      side = "left",
