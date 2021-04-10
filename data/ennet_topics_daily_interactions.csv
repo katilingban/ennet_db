@@ -100,6 +100,7 @@
 "Adolescent nutrition",2021-04-05,29,31179,0,111,28
 "Adolescent nutrition",2021-04-06,29,31285,0,106,28
 "Adolescent nutrition",2021-04-07,29,31373,0,88,28
+"Adolescent nutrition",2021-04-08,29,31522,0,149,28
 "Announcements & Nutritionists needed",2020-12-27,0,4708284,0,0,1241
 "Announcements & Nutritionists needed",2020-12-28,0,4710740,0,2456,1241
 "Announcements & Nutritionists needed",2020-12-29,0,4713491,0,2751,1241
@@ -201,6 +202,7 @@
 "Announcements & Nutritionists needed",2021-04-05,0,5055442,0,2473,1267
 "Announcements & Nutritionists needed",2021-04-06,0,5057844,0,2402,1267
 "Announcements & Nutritionists needed",2021-04-07,0,5062076,0,4232,1267
+"Announcements & Nutritionists needed",2021-04-08,0,5066234,0,4158,1267
 "Assessment and Surveillance",2020-12-27,2097,2388826,0,0,456
 "Assessment and Surveillance",2020-12-28,2097,2389949,0,1123,456
 "Assessment and Surveillance",2020-12-29,2097,2391143,0,1194,456
@@ -302,6 +304,7 @@
 "Assessment and Surveillance",2021-04-05,2115,2547280,0,1244,460
 "Assessment and Surveillance",2021-04-06,2116,2548959,1,1679,460
 "Assessment and Surveillance",2021-04-07,2116,2551077,0,2118,460
+"Assessment and Surveillance",2021-04-08,2116,2553259,0,2182,460
 "Coverage assessment",2020-12-27,328,524927,0,0,93
 "Coverage assessment",2020-12-28,328,525437,0,510,93
 "Coverage assessment",2020-12-29,328,525862,0,425,93
@@ -403,6 +406,7 @@
 "Coverage assessment",2021-04-05,332,667345,0,417,95
 "Coverage assessment",2021-04-06,332,668020,0,675,95
 "Coverage assessment",2021-04-07,332,669137,0,1117,95
+"Coverage assessment",2021-04-08,332,670075,0,938,95
 "COVID-19 and nutrition programming",2020-12-27,131,65878,0,0,84
 "COVID-19 and nutrition programming",2020-12-28,131,66088,0,210,84
 "COVID-19 and nutrition programming",2020-12-29,131,66308,0,220,84
@@ -497,13 +501,14 @@
 "COVID-19 and nutrition programming",2021-03-28,135,87947,0,210,84
 "COVID-19 and nutrition programming",2021-03-29,135,88173,0,226,84
 "COVID-19 and nutrition programming",2021-03-30,135,88593,0,420,84
-"COVID-19 and nutrition programming",2021-04-01,136,91411,1,2818,87
-"COVID-19 and nutrition programming",2021-04-02,136,91737,0,326,87
-"COVID-19 and nutrition programming",2021-04-03,136,91951,0,214,87
-"COVID-19 and nutrition programming",2021-04-04,136,92140,0,189,87
-"COVID-19 and nutrition programming",2021-04-05,136,92364,0,224,87
-"COVID-19 and nutrition programming",2021-04-06,136,92746,0,382,87
-"COVID-19 and nutrition programming",2021-04-07,136,93050,0,304,87
+"COVID-19 and nutrition programming",2021-04-01,134,90165,-1,1572,86
+"COVID-19 and nutrition programming",2021-04-02,134,90488,0,323,86
+"COVID-19 and nutrition programming",2021-04-03,134,90699,0,211,86
+"COVID-19 and nutrition programming",2021-04-04,134,90886,0,187,86
+"COVID-19 and nutrition programming",2021-04-05,134,91105,0,219,86
+"COVID-19 and nutrition programming",2021-04-06,134,91483,0,378,86
+"COVID-19 and nutrition programming",2021-04-07,134,91783,0,300,86
+"COVID-19 and nutrition programming",2021-04-08,134,92271,0,488,86
 "Cross-cutting issues",2020-12-27,90,195370,0,0,47
 "Cross-cutting issues",2020-12-28,90,195447,0,77,47
 "Cross-cutting issues",2020-12-29,90,195553,0,106,47
@@ -605,6 +610,7 @@
 "Cross-cutting issues",2021-04-05,90,208446,0,111,48
 "Cross-cutting issues",2021-04-06,90,208558,0,112,48
 "Cross-cutting issues",2021-04-07,90,208737,0,179,48
+"Cross-cutting issues",2021-04-08,90,209035,0,298,48
 "Food assistance",2020-12-27,63,161124,0,0,32
 "Food assistance",2020-12-28,63,161289,0,165,32
 "Food assistance",2020-12-29,63,161421,0,132,32
@@ -706,6 +712,7 @@
 "Food assistance",2021-04-05,63,206965,0,143,32
 "Food assistance",2021-04-06,63,207167,0,202,32
 "Food assistance",2021-04-07,63,207528,0,361,32
+"Food assistance",2021-04-08,63,207790,0,262,32
 "Infant and young child feeding interventions",2020-12-27,721,903262,0,0,206
 "Infant and young child feeding interventions",2020-12-28,721,903714,0,452,206
 "Infant and young child feeding interventions",2020-12-29,721,904176,0,462,206
@@ -807,6 +814,7 @@
 "Infant and young child feeding interventions",2021-04-05,737,969521,1,507,212
 "Infant and young child feeding interventions",2021-04-06,737,970046,0,525,212
 "Infant and young child feeding interventions",2021-04-07,737,970740,0,694,212
+"Infant and young child feeding interventions",2021-04-08,738,972029,1,1289,212
 "Management of At Risk Mothers and Infants",2020-12-27,66,111141,0,0,27
 "Management of At Risk Mothers and Infants",2020-12-28,66,111195,0,54,27
 "Management of At Risk Mothers and Infants",2020-12-29,66,111254,0,59,27
@@ -901,13 +909,14 @@
 "Management of At Risk Mothers and Infants",2021-03-28,66,119264,0,74,28
 "Management of At Risk Mothers and Infants",2021-03-29,66,119341,0,77,28
 "Management of At Risk Mothers and Infants",2021-03-30,66,119471,0,130,28
-"Management of At Risk Mothers and Infants",2021-04-01,67,114452,1,-5019,29
-"Management of At Risk Mothers and Infants",2021-04-02,67,114548,0,96,29
-"Management of At Risk Mothers and Infants",2021-04-03,67,114626,0,78,29
-"Management of At Risk Mothers and Infants",2021-04-04,67,114700,0,74,29
-"Management of At Risk Mothers and Infants",2021-04-05,67,114762,0,62,29
-"Management of At Risk Mothers and Infants",2021-04-06,67,114834,0,72,29
-"Management of At Risk Mothers and Infants",2021-04-07,67,114947,0,113,29
+"Management of At Risk Mothers and Infants",2021-04-01,66,113443,0,-6028,28
+"Management of At Risk Mothers and Infants",2021-04-02,66,113534,0,91,28
+"Management of At Risk Mothers and Infants",2021-04-03,66,113609,0,75,28
+"Management of At Risk Mothers and Infants",2021-04-04,66,113682,0,73,28
+"Management of At Risk Mothers and Infants",2021-04-05,66,113742,0,60,28
+"Management of At Risk Mothers and Infants",2021-04-06,66,113813,0,71,28
+"Management of At Risk Mothers and Infants",2021-04-07,66,113923,0,110,28
+"Management of At Risk Mothers and Infants",2021-04-08,66,114075,0,152,28
 "Management of wasting/acute malnutrition",2020-12-27,1850,2540112,0,0,535
 "Management of wasting/acute malnutrition",2020-12-28,1850,2541353,0,1241,535
 "Management of wasting/acute malnutrition",2020-12-29,1850,2542632,0,1279,535
@@ -1009,6 +1018,7 @@
 "Management of wasting/acute malnutrition",2021-04-05,1911,2709582,0,1215,546
 "Management of wasting/acute malnutrition",2021-04-06,1911,2710961,0,1379,546
 "Management of wasting/acute malnutrition",2021-04-07,1911,2712773,0,1812,546
+"Management of wasting/acute malnutrition",2021-04-08,1911,2715030,0,2257,546
 "Micronutrients",2020-12-27,122,243629,0,0,55
 "Micronutrients",2020-12-28,122,243759,0,130,55
 "Micronutrients",2020-12-29,122,243886,0,127,55
@@ -1110,6 +1120,7 @@
 "Micronutrients",2021-04-05,123,259414,0,126,56
 "Micronutrients",2021-04-06,123,259526,0,112,56
 "Micronutrients",2021-04-07,123,259697,0,171,56
+"Micronutrients",2021-04-08,123,260005,0,308,56
 "Multi-sector nutrition programming",2020-12-27,19,7114,0,0,3
 "Multi-sector nutrition programming",2020-12-28,19,7121,0,7,3
 "Multi-sector nutrition programming",2020-12-29,19,7127,0,6,3
@@ -1211,6 +1222,7 @@
 "Multi-sector nutrition programming",2021-04-05,19,8077,0,6,3
 "Multi-sector nutrition programming",2021-04-06,19,8085,0,8,3
 "Multi-sector nutrition programming",2021-04-07,19,8100,0,15,3
+"Multi-sector nutrition programming",2021-04-08,19,8118,0,18,3
 "Other thematic area",2020-12-27,90,196119,0,0,52
 "Other thematic area",2020-12-28,90,196219,0,100,52
 "Other thematic area",2020-12-29,90,196321,0,102,52
@@ -1312,6 +1324,7 @@
 "Other thematic area",2021-04-05,83,199882,0,91,51
 "Other thematic area",2021-04-06,83,199970,0,88,51
 "Other thematic area",2021-04-07,83,200120,0,150,51
+"Other thematic area",2021-04-08,83,200396,0,276,51
 "Partnerships for research",2020-12-27,24,52911,0,0,18
 "Partnerships for research",2020-12-28,24,52964,0,53,18
 "Partnerships for research",2020-12-29,24,53002,0,38,18
@@ -1413,6 +1426,7 @@
 "Partnerships for research",2021-04-05,24,57670,0,32,18
 "Partnerships for research",2021-04-06,24,57699,0,29,18
 "Partnerships for research",2021-04-07,24,57747,0,48,18
+"Partnerships for research",2021-04-08,24,57843,0,96,18
 "Prevention and management of stunting",2020-12-27,31,64439,0,0,21
 "Prevention and management of stunting",2020-12-28,31,64482,0,43,21
 "Prevention and management of stunting",2020-12-29,31,64520,0,38,21
@@ -1514,6 +1528,7 @@
 "Prevention and management of stunting",2021-04-05,31,70208,0,42,21
 "Prevention and management of stunting",2021-04-06,31,70246,0,38,21
 "Prevention and management of stunting",2021-04-07,31,70313,0,67,21
+"Prevention and management of stunting",2021-04-08,31,70435,0,122,21
 "Scaling Up Nutrition (SUN)",2020-12-27,112,186593,0,0,51
 "Scaling Up Nutrition (SUN)",2020-12-28,112,186702,0,109,51
 "Scaling Up Nutrition (SUN)",2020-12-29,112,186804,0,102,51
@@ -1615,6 +1630,7 @@
 "Scaling Up Nutrition (SUN)",2021-04-05,112,201579,0,101,52
 "Scaling Up Nutrition (SUN)",2021-04-06,112,201670,0,91,52
 "Scaling Up Nutrition (SUN)",2021-04-07,112,201825,0,155,52
+"Scaling Up Nutrition (SUN)",2021-04-08,112,202153,0,328,52
 "Simplified Approaches for the Management of Acute Malnutrition",2020-12-27,22,9747,0,0,11
 "Simplified Approaches for the Management of Acute Malnutrition",2020-12-28,22,9781,0,34,11
 "Simplified Approaches for the Management of Acute Malnutrition",2020-12-29,22,9811,0,30,11
@@ -1716,6 +1732,7 @@
 "Simplified Approaches for the Management of Acute Malnutrition",2021-04-05,26,13243,0,41,11
 "Simplified Approaches for the Management of Acute Malnutrition",2021-04-06,26,13268,0,25,11
 "Simplified Approaches for the Management of Acute Malnutrition",2021-04-07,26,13302,0,34,11
+"Simplified Approaches for the Management of Acute Malnutrition",2021-04-08,26,13373,0,71,11
 "Upcoming trainings",2020-12-27,190,379488,0,0,92
 "Upcoming trainings",2020-12-28,190,379656,0,168,92
 "Upcoming trainings",2020-12-29,190,379862,0,206,92
@@ -1817,3 +1834,4 @@
 "Upcoming trainings",2021-04-05,197,406375,0,180,95
 "Upcoming trainings",2021-04-06,197,406560,0,185,95
 "Upcoming trainings",2021-04-07,197,406863,0,303,95
+"Upcoming trainings",2021-04-08,197,407388,0,525,95
