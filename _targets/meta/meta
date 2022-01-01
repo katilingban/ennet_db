@@ -6,7 +6,10 @@ get_hourly_topics|function|27adcd58efce7aa4||||||||||||||
 write_hourly_topics|function|939fe637f4aabbcb||||||||||||||
 deploy|object|1eb1bc8d77111ded||||||||||||||
 .Random.seed|object|ade6475e4659ac93||||||||||||||
-outputs|object|8cfa72335b4c9cde||||||||||||||
-f|object|70f473e51e3c5dd7||||||||||||||
+get_daily_topics|function|732e067f95a1197a||||||||||||||
+outputs|object|8663c789238f1e2d||||||||||||||
+f|object|736b8c0666991fe5||||||||||||||
+write_daily_topics|function|cb86bbb0a2fe6bcb||||||||||||||
 reports|object|1eb1bc8d77111ded||||||||||||||
-data|object|afb10ea27edd73e6||||||||||||||
+data|object|8cf2d9d70862e4c9||||||||||||||
+ennet_dailies|stem||e1a50fbd9654c8be|26e11ee1378ba719|-1814452261||t18993.955540743s||0|rds|vector|||2.038|cannot open URL httpsraw.githubusercontent.comkatilingbanennet_dbmaindataennet_topics_January_2022.csv HTTP status was 404 Not Found|cannot open the connection to httpsraw.githubusercontent.comkatilingbanennet_dbmaindataennet_topics_January_2022.csv
