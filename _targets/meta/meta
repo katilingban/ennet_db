@@ -1,12 +1,12 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
-ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18993.5822586017s|8694840c97eb280f|587|rds|vector|||0.672||
-ennet_topics|stem|a11afa960f68b344|088d91aaafd227bd|dc35aa73ae236e2b|944333465||t18993.5831587641s|8da6a0790e7f75bb|120516|rds|vector|||10.775||
-hourly_topics_csv|stem|4ac1eb883db90b0f|75f1d7e3ca2125f0|f3309fc30bf1f9a8|-1486092141||t18993.5831591808s|a1c456b03adbfbf8|44|rds|vector|||0.03||
 get_hourly_topics|function|27adcd58efce7aa4||||||||||||||
 write_hourly_topics|function|939fe637f4aabbcb||||||||||||||
 deploy|object|1eb1bc8d77111ded||||||||||||||
 .Random.seed|object|ade6475e4659ac93||||||||||||||
 outputs|object|8cfa72335b4c9cde||||||||||||||
-f|object|70f473e51e3c5dd7||||||||||||||
+f|object|01f37c5610db6f44||||||||||||||
 reports|object|1eb1bc8d77111ded||||||||||||||
 data|object|afb10ea27edd73e6||||||||||||||
+ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18993.6887298491s|8694840c97eb280f|587|rds|vector|||1.763||
+ennet_topics|stem|054e31d8ad74f377|088d91aaafd227bd|dc35aa73ae236e2b|944333465||t18993.6889120276s|f8c882758d1e1fcd|120524|rds|vector|||15.677||
+hourly_topics_csv|stem|4ac1eb883db90b0f|75f1d7e3ca2125f0|dc82f03764e107e6|-1486092141||t18993.6889123517s|a1c456b03adbfbf8|44|rds|vector|||0.02||
