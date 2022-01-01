@@ -1,0 +1,43 @@
+name: get_hourly_topics
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  run-workflow:
+    runs-on: ubuntu-latest
+    container: rocker/tidyverse:4.1.2
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Install system dependencies
+        run: |
+          apt-get update && apt-get install -y --no-install-recommends \
+          git-crypt libxt6 libglpk-dev
+          
+      - name: Install packages from renv.lock (with cache)
+        if: ${{ !env.ACT }}  
+        uses: r-lib/actions/setup-renv@master
+        with:
+          cache-version: 2
+
+      - name: Install packages from renv.lock (local, no cache)
+        if: ${{ env.ACT }}  
+        run: |
+          renv::restore()
+        shell: Rscript {0}
+        
+      - name: Run workflow
+        run: |
+          targets::tar_make(hourly_topics_csv)
+        shell: Rscript {0}
+          
+      - name: Commit and push files
+        run: |
+          git config --global user.email "ernest@guevarra.io"
+          git config --global user.name "ernestguevarra"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "update hourly reports"
+          git push
+          
