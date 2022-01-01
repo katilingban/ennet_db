@@ -10,6 +10,6 @@ f|object|01f37c5610db6f44||||||||||||||
 write_daily_topics|function|cb86bbb0a2fe6bcb||||||||||||||
 reports|object|1eb1bc8d77111ded||||||||||||||
 data|object|cd4715637563b9c3||||||||||||||
-ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18993.8026913968s|8694840c97eb280f|587|rds|vector|||1.839||
-ennet_hourly_topics|stem|5bf54379b3b7aa60|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t18993.8028705186s|514e61e2250da4c9|120540|rds|vector|||15.432||
-hourly_topics_csv|stem|4ac1eb883db90b0f|4e3242a8461e881f|dd231535b67eb39f|-1486092141||t18993.8028707964s|a1c456b03adbfbf8|44|rds|vector|||0.017||
+ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18993.848047343s|8694840c97eb280f|587|rds|vector|||2.311||
+ennet_hourly_topics|stem|d9b2e8ee3993a04a|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t18993.8482820713s|49282c7a0269e54b|120538|rds|vector|||20.223||
+hourly_topics_csv|stem|4ac1eb883db90b0f|4e3242a8461e881f|78deae2accf94c19|-1486092141||t18993.8482823954s|a1c456b03adbfbf8|44|rds|vector|||0.021||
