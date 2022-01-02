@@ -3,7 +3,8 @@
 #'
 #' Get monthly topics by theme
 #' 
-#' @param data_date
+#' @param path
+#' @param .date
 #' 
 #' @return
 #'
@@ -11,30 +12,29 @@
 #
 ################################################################################
 
-get_monthly_topics <- function(data_date = Sys.Date() - 1) {
-  monthly_topics <- try(
-    create_db_topics_monthly(.date = data_date),
-    silent = TRUE
+get_monthly_topics <- function(path = "data", .date = Sys.Date()) {
+  ## Get filenames of dailies
+  x <- paste0(
+    lubridate::year(.date), "-",
+    stringr::str_pad(
+      lubridate::month(.date), width = 2, side = "left", pad = "0"
+    ), "-[0-9]{2}.csv"
   )
   
-  if (class(monthly_topics) == "try-error") {
-    hourly_topics <- NA
-  } else {
-    data_dates <- paste(
-      year(data_date), 
-      stringr::str_pad(month(data_date), width = 2, side = "left", pad = "0"), 
-      stringr::str_pad(seq(from = 1, to = lubridate::mday(data_date), by = 1), 
-                       width = 2, side = "left", pad = "0"), sep = "-"
-    )
-    fn <- list.files(
-      path = "data", 
-      pattern = paste(data_dates, collapse = "|"), 
-      full.names = TRUE
-    )
+  fn <- list.files(path = path, pattern = x, full.names = TRUE)
+  
+  ## Get daily topics
+  if (length(fn) != 0) {
+    monthly_topics <- lapply(X = fn, FUN = read.csv)
+    monthly_topics <- Reduce(f = merge, x = monthly_topics)
     
-    file.remove(fn)
+    ## Remove hourlies
+    #file.remove(fn)
+  } else {
+    monthly_topics <- NA
   }
   
+  ## Return
   monthly_topics
 }
 
@@ -45,26 +45,20 @@ get_monthly_topics <- function(data_date = Sys.Date() - 1) {
 #' Save monthly topics dataset into CSV
 #'
 #' @param monthly_topics
+#' @param .date
 #' 
 #' @return 
 #'
 #
 ################################################################################
 
-write_monthly_topics <- function(monthly_topics) {
-  ## Get current date and time
-  current_date_time <- Sys.time() %>%
-    stringr::str_replace_all(pattern = " ", replacement = "_")  
-  
+write_monthly_topics <- function(monthly_topics, .date = Sys.Date()) {
   ##
   write.csv(
-    x = hourly_topics,
-    file = paste(
-      "data/ennet_topics_", current_date_time, ".csv", sep = ""
+    x = monthly_topics,
+    file = paste0(
+      "data/ennet_topics_", months(.date), "_", lubridate::year(.date), ".csv"
     ),
-    row.names = FALSE
-  )
+    row.names = FALSE)
 }
-
-
 
