@@ -1,11 +1,11 @@
-name: get_ennet_topics
+name: get_ennet_discussions
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 0 * * *"
 
 jobs:
-  get_ennet_topics:
+  get_ennet_discussions:
     runs-on: ubuntu-latest
     container: rocker/tidyverse:4.1.2
     steps:
@@ -28,11 +28,9 @@ jobs:
           renv::restore()
         shell: Rscript {0}
         
-      - name: Get en-net topics
+      - name: Get en-net discussions
         run: |
-          targets::tar_make(
-            c(hourly_topics_csv, daily_topics_csv, monthly_topics_csv)
-          )
+          targets::tar_make(discussions_csv)
         shell: Rscript {0}
           
       - name: Commit and push files

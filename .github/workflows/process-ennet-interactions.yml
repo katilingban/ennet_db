@@ -1,11 +1,11 @@
-name: get_ennet_topics
+name: process_ennet_interactions
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 5 * * *"
 
 jobs:
-  get_ennet_topics:
+  process_ennet_interactions:
     runs-on: ubuntu-latest
     container: rocker/tidyverse:4.1.2
     steps:
@@ -28,10 +28,11 @@ jobs:
           renv::restore()
         shell: Rscript {0}
         
-      - name: Get en-net topics
+      - name: Process en-net discussions
         run: |
           targets::tar_make(
-            c(hourly_topics_csv, daily_topics_csv, monthly_topics_csv)
+            c(daily_interactions_csv, weekly_interactions_csv, 
+            monthly_interactions_csv, yearly_interactions_csv)
           )
         shell: Rscript {0}
           
