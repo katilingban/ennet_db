@@ -14,10 +14,10 @@ write_daily_topics|function|29d0ff270bd0b1d1||||||||||||||
 clean_hourlies|function|aafaa3682c06e2a3||||||||||||||
 reports|object|1eb1bc8d77111ded||||||||||||||
 data|object|e4574e802aa7f8f3||||||||||||||
-ennet_daily_topics|stem|8dd6cf961604de90|343aee883fa21255|333fe28e0fc44506|451724129||t18994.4280813591s|738012890a3c7c55|138657|rds|vector|||0.416||
-ennet_monthly_topics|stem|f441c18efd7d9764|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t18994.428083072s|365bf44498126d91|159725|rds|vector|||0.078||
-ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18994.4281159886s|8694840c97eb280f|587|rds|vector|||2.837||
-daily_topics_csv|stem|4ac1eb883db90b0f|3b821cd1b939ea68|16d381156fca32a0|-1892082712||t18994.4281164979s|a1c456b03adbfbf8|44|rds|vector|||0.038||
-monthly_topics_csv|stem|4ac1eb883db90b0f|91095b1942b56c4e|7afee637397b532d|-595763567||t18994.4281172849s|a1c456b03adbfbf8|44|rds|vector|||0.061||
-ennet_hourly_topics|stem|5419fb85fe6ef0fe|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t18994.4283881164s|3ce7ae62d1e1fa16|120537|rds|vector|||23.364||
-hourly_topics_csv|stem|4ac1eb883db90b0f|e2ae2ca415b93663|bd0fe477a4e47a3b|-1486092141||t18994.4283883942s|a1c456b03adbfbf8|44|rds|vector|||0.018||
+ennet_daily_topics|stem|35d64e7242161009|343aee883fa21255|333fe28e0fc44506|451724129||t18994.4670597462s|dad7f32409709a49|140594|rds|vector|||0.388||
+ennet_monthly_topics|stem|edfb4874b2128fad|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t18994.4670611351s|f520348bfad04b65|162044|rds|vector|||0.067||
+ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18994.4670939131s|8694840c97eb280f|587|rds|vector|||2.827||
+daily_topics_csv|stem|4ac1eb883db90b0f|3b821cd1b939ea68|b082accae5d69521|-1892082712||t18994.4670943298s|a1c456b03adbfbf8|44|rds|vector|||0.03||
+monthly_topics_csv|stem|4ac1eb883db90b0f|91095b1942b56c4e|fe526ac267a2ea1a|-595763567||t18994.4670949317s|a1c456b03adbfbf8|44|rds|vector|||0.047||
+ennet_hourly_topics|stem|28bbdc6f3abb54fb|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t18994.4673169239s|514e61e2250da4c9|120540|rds|vector|||19.149||
+hourly_topics_csv|stem|4ac1eb883db90b0f|e2ae2ca415b93663|b68ac0521a5c4ff1|-1486092141||t18994.4673171091s|a1c456b03adbfbf8|44|rds|vector|||0.015||
