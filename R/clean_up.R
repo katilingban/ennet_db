@@ -22,7 +22,7 @@ clean_hourlies <- function(path = "data", .date = Sys.Date() - 1) {
     fn <- list.files(path = path, pattern = y, full.names = TRUE)
     
     ## Remove hourlies
-    file.remomve(fn)
+    file.remove(fn)
   } else {
     message(
       paste0("Dailies for ", .date, " not yet available. Aborting clean-up.")
