@@ -9,20 +9,23 @@
 #
 ################################################################################
 
-get_daily_topics <- function(data_date = Sys.Date() - 1) {
+get_daily_topics <- function(path = "data", .date = Sys.Date()) {
   ## Get filenames of dailies
-  fn <- list.files(path = "data", pattern = as.character(data_date))
+  #fn <- list.files(path = "data", pattern = as.character(data_date))
+  
+  x <- paste0(as.character(.date), "_[0-9]{2}:[0-9]{2}:[0-9]{2}")
+  
+  fn <- list.files(path = path, pattern = x)
   
   ## Get daily topics
-  daily_topics <- try(
-    create_db_topics_daily(.date = data_date, fn = fn), silent = TRUE
-  )
-  
-  if (class(daily_topics) == "try-error") {
-    daily_topics <- NA
-  } else {
+  if (length(fn) != 0) {
+    daily_topics <- lapply(X = fn, FUN = read.csv)
+    daily_topics <- Reduce(f = merge, x = daily_topics)
+    
     ## Remove hourlies
     file.remove(paste("data", fn, sep = "/"))
+  } else {
+    daily_topics <- NA
   }
   
   ## Return
@@ -43,10 +46,10 @@ get_daily_topics <- function(data_date = Sys.Date() - 1) {
 #
 ################################################################################
 
-write_daily_topics <- function(data_date = Sys.Date() - 1, 
-                               daily_topics) {
+write_daily_topics <- function(daily_topics, .date = Sys.Date()) {
   ##
-  write.csv(x = daily_topics,
-            file = paste("data/ennet_topics_", data_date, ".csv", sep = ""),
-            row.names = FALSE)
+  write.csv(
+    x = daily_topics,
+    file = paste0("data/ennet_topics_", as.character(.date), ".csv"),
+    row.names = FALSE)
 }
