@@ -1,4 +1,3 @@
-source("renv/activate.R")
 if (Sys.info()[['sysname']] %in% c('Linux', 'Windows')) {
   options(
     repos = c(RSPM = "https://packagemanager.rstudio.com/all/latest")
@@ -19,3 +18,5 @@ options(
   renv.config.install.shortcuts = TRUE, 
   renv.config.cache.enabled = TRUE
 )
+
+source("renv/activate.R")
