@@ -1,11 +1,11 @@
-name: get_ennet_topics
+name: clean_hourly_topics
 
 on:
   schedule:
     - cron: "0 10 * * *"
 
 jobs:
-  get_ennet_topics:
+  clean_hourly_topics:
     runs-on: ubuntu-latest
     container: rocker/tidyverse:4.1.2
     steps:
