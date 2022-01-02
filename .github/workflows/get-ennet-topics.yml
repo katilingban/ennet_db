@@ -28,7 +28,7 @@ jobs:
           renv::restore()
         shell: Rscript {0}
         
-      - name: Run workflow
+      - name: Get en-net topics
         run: |
           targets::tar_make(
             c(hourly_topics_csv, daily_topics_csv, monthly_topics_csv)
@@ -40,6 +40,6 @@ jobs:
           git config --global user.email "ernest@guevarra.io"
           git config --global user.name "ernestguevarra"
           git add .
-          git diff-index --quiet HEAD || git commit -m "update hourly reports"
+          git diff-index --quiet HEAD || git commit -m "update hourly topics"
           git push
           
