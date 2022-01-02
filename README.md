@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ennet\_db: en-net Online Forum Database <img src="ennet_db.png" width="200px" align="right" />
+# ennet_db: en-net Online Forum Database <img src="ennet_db.png" width="200px" align="right" />
 
 <!-- badges: start -->
 
@@ -10,25 +10,25 @@ state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 ![](https://img.shields.io/badge/version-prerelease-orange)
 [![](https://img.shields.io/badge/license-GPLv3-blue)](https://github.com/katilingban/ennet_db/blob/master/LICENSE.md)
-[![ennet\_daily\_update](https://github.com/katilingban/ennet_db/workflows/ennet_daily_update/badge.svg)](https://github.com/katilingban/ennet_db/actions?query=workflow%3Aennet_daily_update)
-[![ennet\_hourly\_update](https://github.com/katilingban/ennet_db/workflows/ennet_hourly_update/badge.svg)](https://github.com/katilingban/ennet_db/actions?query=workflow%3Aennet_hourly_update)
+[![get_ennet_topics](https://github.com/katilingban/ennet_db/actions/workflows/get-ennet-topics.yml/badge.svg)](https://github.com/katilingban/ennet_db/actions/workflows/get-ennet-topics.yml)
 [![DOI](https://zenodo.org/badge/324514598.svg)](https://zenodo.org/badge/latestdoi/324514598)
 <!-- badges: end -->
 
 This repository serves the extracted text datasets from the [en-net
-online forum](https://www.en-net.org) using the [`ennet
-package`](https://katilingban.io/ennet/). Specifically, the
+online forum](https://www.en-net.org) using the
+[`ennet package`](https://katilingban.io/ennet/). Specifically, the
 [`data`](https://github.com/katilingban/ennet_db/tree/main/data) folder
 within this repository contains two sets of extracted data from the
 [en-net online forum](https://www.en-net.org):
 
-  - daily [en-net online forum](https://www.en-net.org) discussions
+-   daily [en-net online forum](https://www.en-net.org) discussions
     dataset - these are CSV files named `ennet_discussions.csv`; and,
 
-  - hourly [en-net online forum](https://www.en-net.org) topics dataset
-    - these are CSV files named as `ennet_topics_YYY-MM-DD_HH:MM:SS`
-    where `YYYY` is year, `MM` is month, `DD` is day, `HH` is hour, the
-    second `MM` is minute, and `SS` is second.
+-   hourly [en-net online forum](https://www.en-net.org) topics
+    dataset - these are CSV files named as
+    `ennet_topics_YYY-MM-DD_HH:MM:SS` where `YYYY` is year, `MM` is
+    month, `DD` is day, `HH` is hour, the second `MM` is minute, and
+    `SS` is second.
 
 Routine scheduled extraction is performed using [GitHub
 Actions](https://github.com/katilingban/ennet_db/actions) workflows
