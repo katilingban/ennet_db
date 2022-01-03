@@ -1,8 +1,6 @@
 name: process_ennet_interactions
 
 on:
-  schedule:
-    - cron: "0 5 * * *"
   workflow_dispatch:
     branches:
     - '*'
