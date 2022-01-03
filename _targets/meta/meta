@@ -26,10 +26,10 @@ clean_hourlies|function|aafaa3682c06e2a3||||||||||||||
 reports|object|1eb1bc8d77111ded||||||||||||||
 data|object|db6d69bc9bc71c58||||||||||||||
 write_discussions|function|b866f10999484577||||||||||||||
-ennet_daily_topics|stem|8dc0e24dce52dd08|343aee883fa21255|333fe28e0fc44506|451724129||t18995.0865551771s|70c95f03dcf4ddf5|121170|rds|vector|||0.051||
-ennet_monthly_topics|stem|b33d99ff88611451|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t18995.0865573994s|5be1682e0482d5f0|206046|rds|vector|||0.102||
-ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18995.0865831409s|8694840c97eb280f|587|rds|vector|||2.215||
-daily_topics_csv|stem|4ac1eb883db90b0f|3b821cd1b939ea68|8b10f47e41c53d17|-1892082712||t18995.0865835112s|a1c456b03adbfbf8|44|rds|vector|||0.027||
-monthly_topics_csv|stem|4ac1eb883db90b0f|91095b1942b56c4e|374580871027f299|-595763567||t18995.086584715s|a1c456b03adbfbf8|44|rds|vector|||0.098||
-ennet_hourly_topics|stem|8786768b95518142|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t18995.0867686071s|49282c7a0269e54b|120538|rds|vector|||15.855||
-hourly_topics_csv|stem|4ac1eb883db90b0f|e2ae2ca415b93663|38ef4ad08bfb0cb7|-1486092141||t18995.0867688849s|a1c456b03adbfbf8|44|rds|vector|||0.018||
+ennet_daily_topics|stem|8ee8292f280a9143|343aee883fa21255|333fe28e0fc44506|451724129||t18995.1363763496s|50e8a07b4ebb06ec|131841|rds|vector|||0.122||
+ennet_monthly_topics|stem|42d629e6941b479e|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t18995.1363789885s|cec6d28c1c91d8a1|213039|rds|vector|||0.131||
+ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18995.1364055163s|8694840c97eb280f|587|rds|vector|||2.282||
+daily_topics_csv|stem|4ac1eb883db90b0f|3b821cd1b939ea68|c9d8391ae718db9b|-1892082712||t18995.1364057478s|a1c456b03adbfbf8|44|rds|vector|||0.016||
+monthly_topics_csv|stem|4ac1eb883db90b0f|91095b1942b56c4e|21ec53e580d0cdd6|-595763567||t18995.1364071367s|a1c456b03adbfbf8|44|rds|vector|||0.112||
+ennet_hourly_topics|stem|a7279d26266b2b4c|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t18995.1366393589s|edbe7697f2b7aa61|120533|rds|vector|||20.028||
+hourly_topics_csv|stem|4ac1eb883db90b0f|e2ae2ca415b93663|b26059bb1b2803d8|-1486092141||t18995.1366396367s|a1c456b03adbfbf8|44|rds|vector|||0.018||
