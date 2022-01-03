@@ -45,5 +45,6 @@ jobs:
           git add .
           git diff-index --quiet HEAD || git commit -m "update discussions"
           git checkout main
-          git merge dev
+          git pull
+          git merge dev -m "update discussions"
           
