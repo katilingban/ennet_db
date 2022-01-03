@@ -30,9 +30,22 @@ jobs:
         
       - name: Get en-net topics
         run: |
-          targets::tar_make(
-            c(hourly_topics_csv, daily_topics_csv, monthly_topics_csv)
-          )
+          targets::tar_make(hourly_topics_csv)
+          targets::tar_make(daily_topics_csv)
+          targets::tar_make(monthly_topics_csv)
+        shell: Rscript {0}
+          
+      - name: Process en-net interactions
+        run: |
+          targets::tar_make(daily_interactions_csv)
+          targets::tar_make(weekly_interactions_csv) 
+          targets::tar_make(monthly_interactions_csv)
+          targets::tar_make(yearly_interactions_csv)
+        shell: Rscript {0}
+      
+      - name: Get en-net discussions
+        run: |
+          targets::tar_make(discussions_csv)          
         shell: Rscript {0}
           
       - name: Commit and push files
@@ -40,6 +53,6 @@ jobs:
           git config --global user.email "ernest@guevarra.io"
           git config --global user.name "ernestguevarra"
           git add .
-          git diff-index --quiet HEAD || git commit -m "update hourly topics"
+          git diff-index --quiet HEAD || git commit -m "process ennet topics"
           git push
           
