@@ -3,22 +3,22 @@ ennet_topics|stem|a11afa960f68b344|088d91aaafd227bd|dc35aa73ae236e2b|944333465||
 <<<<<<< HEAD||||||||||||||||
 =======||||||||||||||||
 >>>>>>> upstream/main||||||||||||||||
-ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18995.5934073328s|8694840c97eb280f|587|rds|vector|||2.095||
-ennet_hourly_topics|stem|b8cd4b645007a08c|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t18995.593618539s|31c9ed8db317c804|120558|rds|vector|||18.199||
-hourly_topics_csv|stem|4ac1eb883db90b0f|e2ae2ca415b93663|8f8f0dd58adc229e|-1486092141||t18995.5936187705s|a1c456b03adbfbf8|44|rds|vector|||0.018||
-ennet_daily_topics|stem|3d10825bffad3a7d|343aee883fa21255|333fe28e0fc44506|451724129||t18995.5936426597s|f541c37053c20b3a|195718|rds|vector|||0.611||
-daily_topics_csv|stem|4ac1eb883db90b0f|3b821cd1b939ea68|0edadfc4cf67adf9|-1892082712||t18995.593643493s|a1c456b03adbfbf8|44|rds|vector|||0.044||
-ennet_monthly_topics|stem|8e6cd7d49137da31|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t18995.5936624285s|f188eab789803f69|286256|rds|vector|||0.152||
-monthly_topics_csv|stem|4ac1eb883db90b0f|91095b1942b56c4e|4cc334fabcf1aeb7|-595763567||t18995.5936640489s|a1c456b03adbfbf8|44|rds|vector|||0.119||
-ennet_dailies|stem|de9690fba5eb347e|f06a8bc9cd469ee8|8693c39b8d82930d|-1814452261||t18995.5937765509s|5b78d693d6d40703|414034|rds|vector|||7.2||
-daily_interactions|stem|772292a939f0526c|c66d9eda5d63cc0f|457791bd767c964b|1427371126||t18995.5937849306s|57a99e3d347a7598|1954|rds|vector|||0.701||
-daily_interactions_csv|stem|4ac1eb883db90b0f|8ba5b0d818245960|969210a04e8d5b89|-1388465918||t18995.5937850232s|a1c456b03adbfbf8|44|rds|vector|||0.003||
-weekly_interactions|stem|796fe7cd67f21d58|81f5aea1ed7856e2|457791bd767c964b|-982791415||t18995.5938309959s|fccbbbecbabaa52b|1338|rds|vector|||2.448||
-weekly_interactions_csv|stem|4ac1eb883db90b0f|feb6f3a69d96efc0|fa9af7b336ce5792|173101903||t18995.5938310885s|a1c456b03adbfbf8|44|rds|vector|||0.002||
-monthly_interactions|stem|7e352b4878307117|b573817db063976b|457791bd767c964b|-1225178996||t18995.593868126s|6739d4b715e4c3c6|1166|rds|vector|||1.683||
-monthly_interactions_csv|stem|4ac1eb883db90b0f|f5a3bbf634645c4e|9725c0905e05a0c6|536682391||t18995.5938682186s|a1c456b03adbfbf8|44|rds|vector|||0.002||
-yearly_interactions|stem|0d7027a0c4fe0ac3|f3fdf9b14c36c4e0|457791bd767c964b|1059670289||t18995.5939049782s|d6207e6fae1d9ee6|1150|rds|vector|||1.671||
-yearly_interactions_csv|stem|4ac1eb883db90b0f|9e8ac4975c70ddf3|de687096432a64e6|-202370705||t18995.5939050708s|a1c456b03adbfbf8|44|rds|vector|||0.001||
+ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t18995.6365324446s|8694840c97eb280f|587|rds|vector|||2.663||
+ennet_hourly_topics|stem|5f422c08947ff1da|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t18995.6368079092s|514e61e2250da4c9|120540|rds|vector|||23.74||
+hourly_topics_csv|stem|4ac1eb883db90b0f|e2ae2ca415b93663|4fb61dc5edf5a9fb|-1486092141||t18995.6368082333s|a1c456b03adbfbf8|44|rds|vector|||0.022||
+ennet_daily_topics|stem|079ae70fb51773e1|343aee883fa21255|333fe28e0fc44506|451724129||t18995.6368411038s|c20c3ea925802c3a|204884|rds|vector|||0.837||
+daily_topics_csv|stem|4ac1eb883db90b0f|3b821cd1b939ea68|b769b4073f650ca6|-1892082712||t18995.636842215s|a1c456b03adbfbf8|44|rds|vector|||0.06||
+ennet_monthly_topics|stem|2813be2a659f4cea|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t18995.6368676318s|cd6db667f9c7f14d|295505|rds|vector|||0.194||
+monthly_topics_csv|stem|4ac1eb883db90b0f|91095b1942b56c4e|b39541905f3314d1|-595763567||t18995.6368699003s|a1c456b03adbfbf8|44|rds|vector|||0.164||
+ennet_dailies|stem|74c67facf8805484|f06a8bc9cd469ee8|8693c39b8d82930d|-1814452261||t18995.6370315217s|a297ffbf1fdbc2f9|414137|rds|vector|||10.592||
+daily_interactions|stem|0f2f571d94fec235|c66d9eda5d63cc0f|d07064c81920fc1b|1427371126||t18995.6370427717s|6c241e02dfb870a0|1958|rds|vector|||0.946||
+daily_interactions_csv|stem|4ac1eb883db90b0f|8ba5b0d818245960|e8e8832e60c562e8|-1388465918||t18995.6370429106s|a1c456b03adbfbf8|44|rds|vector|||0.004||
+weekly_interactions|stem|9fe13201ec9d7b24|81f5aea1ed7856e2|d07064c81920fc1b|-982791415||t18995.6371100869s|b433b64297ce9973|1330|rds|vector|||3.791||
+weekly_interactions_csv|stem|4ac1eb883db90b0f|feb6f3a69d96efc0|2255388f45327766|173101903||t18995.6371102258s|a1c456b03adbfbf8|44|rds|vector|||0.003||
+monthly_interactions|stem|f8e25be31955b31e|b573817db063976b|d07064c81920fc1b|-1225178996||t18995.6371636058s|1e0c41a98502c370|1161|rds|vector|||2.608||
+monthly_interactions_csv|stem|4ac1eb883db90b0f|f5a3bbf634645c4e|91b211440671d161|536682391||t18995.6371637447s|a1c456b03adbfbf8|44|rds|vector|||0.002||
+yearly_interactions|stem|17a965767ba7f8c5|f3fdf9b14c36c4e0|d07064c81920fc1b|1059670289||t18995.637217495s|dc2649c9b211ba3b|1149|rds|vector|||2.643||
+yearly_interactions_csv|stem|4ac1eb883db90b0f|9e8ac4975c70ddf3|30a82c88370831e5|-202370705||t18995.6372176339s|a1c456b03adbfbf8|44|rds|vector|||0.002||
 write_monthly_topics|function|3057d67b278ae4c2||||||||||||||
 get_hourly_topics|function|27adcd58efce7aa4||||||||||||||
 write_hourly_topics|function|939fe637f4aabbcb||||||||||||||
@@ -34,5 +34,5 @@ clean_hourlies|function|aafaa3682c06e2a3||||||||||||||
 reports|object|1eb1bc8d77111ded||||||||||||||
 data|object|db6d69bc9bc71c58||||||||||||||
 write_discussions|function|b866f10999484577||||||||||||||
-ennet_discussions|stem|98e0037a0da773c0|6fbf17a0901f5b56|c8d3e9507fb00ca2|-372985748||t18995.6220933358s|f21e1dfbed11658f|4026892|rds|vector|||2432.345||
-discussions_csv|stem|4ac1eb883db90b0f|b3f19095cd760b22|854eefb8e6cf523b|1341829522||t18995.6220948173s|a1c456b03adbfbf8|44|rds|vector|||0.108||
+ennet_discussions|stem|98e0037a0da773c0|6fbf17a0901f5b56|c8d3e9507fb00ca2|-372985748||t18995.672513106s|f21e1dfbed11658f|4026892|rds|vector|||3045.451||
+discussions_csv|stem|4ac1eb883db90b0f|b3f19095cd760b22|854eefb8e6cf523b|1341829522||t18995.672515282s|a1c456b03adbfbf8|44|rds|vector|||0.158||
