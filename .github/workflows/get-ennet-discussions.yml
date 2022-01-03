@@ -3,6 +3,9 @@ name: get_ennet_discussions
 on:
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch:
+    branches:
+      - '*'
 
 jobs:
   get_ennet_discussions:
