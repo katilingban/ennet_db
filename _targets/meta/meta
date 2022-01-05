@@ -16,6 +16,8 @@ monthly_interactions|stem|06482dfae6071212|b573817db063976b|dc75e1bc2cb1e45c|-12
 monthly_interactions_csv|stem|4ac1eb883db90b0f|f5a3bbf634645c4e|48c902c501f02719|536682391||t18997.9330847864s|a1c456b03adbfbf8|44|rds|vector|||0.003||
 yearly_interactions|stem|aa692b8f9c6aef20|f3fdf9b14c36c4e0|dc75e1bc2cb1e45c|1059670289||t18997.9332215008s|dc2649c9b211ba3b|1149|rds|vector|||2.065||
 yearly_interactions_csv|stem|4ac1eb883db90b0f|9e8ac4975c70ddf3|80fa55830ad78b2c|-202370705||t18997.9332216397s|a1c456b03adbfbf8|44|rds|vector|||0.004||
+ennet_discussions|stem|21858fe47d7e37b6|6fbf17a0901f5b56|c8d3e9507fb00ca2|-372985748||t18997.9471472983s|12c48ee040cd2108|4029405|rds|vector|||1191.406||
+discussions_csv|stem|4ac1eb883db90b0f|b3f19095cd760b22|8013dc93fe01cbd7|1341829522||t18994.6634024409s|a1c456b03adbfbf8|44|rds|vector|||0.14||
 write_monthly_topics|function|3057d67b278ae4c2||||||||||||||
 get_hourly_topics|function|27adcd58efce7aa4||||||||||||||
 write_hourly_topics|function|939fe637f4aabbcb||||||||||||||
@@ -31,5 +33,3 @@ clean_hourlies|function|aafaa3682c06e2a3||||||||||||||
 reports|object|1eb1bc8d77111ded||||||||||||||
 data|object|db6d69bc9bc71c58||||||||||||||
 write_discussions|function|b866f10999484577||||||||||||||
-ennet_discussions|stem|21858fe47d7e37b6|6fbf17a0901f5b56|c8d3e9507fb00ca2|-372985748||t18997.9471472983s|12c48ee040cd2108|4029405|rds|vector|||1191.406||
-discussions_csv|stem|4ac1eb883db90b0f|b3f19095cd760b22|8013dc93fe01cbd7|1341829522||t18994.6634024409s|a1c456b03adbfbf8|44|rds|vector|||0.14||
