@@ -47,7 +47,7 @@ outputs <- tar_plan(
   discussions_csv = write_discussions(ennet_discussions),
   daily_interactions_csv = write.csv(
     x = daily_interactions, 
-    file = "data/ennetss_topics_daily_interactions.csv",
+    file = "data/ennet_topics_daily_interactions.csv",
     row.names = FALSE
   ),
   weekly_interactions_csv = write.csv(
