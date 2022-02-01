@@ -363,10 +363,10 @@
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.7.0",
+      "Version": "1.6.5",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "51dfc97e1b7069e9f7e6f83f3589c22e",
+      "Repository": "RSPM",
+      "Hash": "464a3e015331eeb8efd1d239cad5128d",
       "Requirements": [
         "cli",
         "crayon",
