@@ -1,21 +1,21 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
 ennet_topics|stem|a11afa960f68b344|088d91aaafd227bd|dc35aa73ae236e2b|944333465||t18993.5831587641s|8da6a0790e7f75bb|120516|rds|vector|||10.775||
-ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t19031.6290371969s|8694840c97eb280f|587|rds|vector|||1.874||
-ennet_hourly_topics|stem|f19467c2364659a3|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t19031.6292201148s|47cdbca76fe4c863|121309|rds|vector|||15.751||
-hourly_topics_csv|stem|4ac1eb883db90b0f|e2ae2ca415b93663|4f161dcda6cde491|-1486092141||t19031.6292203926s|a1c456b03adbfbf8|44|rds|vector|||0.017||
-ennet_daily_topics|stem|43b3f2b4a820324c|343aee883fa21255|333fe28e0fc44506|451724129||t19031.6292471519s|c858e72ebe8f91f7|244808|rds|vector|||0.726||
-daily_topics_csv|stem|4ac1eb883db90b0f|3b821cd1b939ea68|86d2d2f9b8ad1f09|-1892082712||t19031.6292478927s|a1c456b03adbfbf8|44|rds|vector|||0.045||
-ennet_monthly_topics|stem|d3d5b6f0b0190459|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t19031.6292772446s|ef3e21d5c0ebeb7d|1478798|rds|vector|||0.538||
-monthly_topics_csv|stem|4ac1eb883db90b0f|91095b1942b56c4e|33ded08b3fbad6e3|-595763567||t19031.629283402s|a1c456b03adbfbf8|44|rds|vector|||0.416||
-ennet_dailies|stem|3152d1290c18c55e|f06a8bc9cd469ee8|8693c39b8d82930d|-1814452261||t19031.6319146243s|c919837b60c9ac40|5837312|rds|vector|||218.041|cannot open URL httpsraw.githubusercontent.comkatilingbanennet_dbmaindataennet_topics_December_2021.csv HTTP status was 404 Not Found|
-daily_interactions|stem|1e98039a2dd73dca|c66d9eda5d63cc0f|bc3ba4f672a08395|1427371126||t19031.6322588397s|fa32b9f84f670d9f|32514|rds|vector|||29.706||
-daily_interactions_csv|stem|4ac1eb883db90b0f|763ce2d9ea42f434|08e58f4e4f0c4e86|-1388465918||t19031.6322593953s|a1c456b03adbfbf8|44|rds|vector|||0.04||
-weekly_interactions|stem|9825f3a4fd9950f7|81f5aea1ed7856e2|bc3ba4f672a08395|-982791415||t19031.6327415742s|37920cad0b0ecf7b|7695|rds|vector|||35.589||
-weekly_interactions_csv|stem|4ac1eb883db90b0f|feb6f3a69d96efc0|d74e1c722334ed86|173101903||t19031.6327417131s|a1c456b03adbfbf8|44|rds|vector|||0.008||
-monthly_interactions|stem|1511c64c3ea82173|b573817db063976b|bc3ba4f672a08395|-1225178996||t19031.6329709741s|0ba2bcb5a46cf19b|3510|rds|vector|||13.825||
-monthly_interactions_csv|stem|4ac1eb883db90b0f|f5a3bbf634645c4e|2e8849ca708ee974|536682391||t19031.632971113s|a1c456b03adbfbf8|44|rds|vector|||0.004||
-yearly_interactions|stem|cdc2b83f1a88d43c|f3fdf9b14c36c4e0|bc3ba4f672a08395|1059670289||t19031.633095975s|9ef5b03992486a66|1444|rds|vector|||4.815||
-yearly_interactions_csv|stem|4ac1eb883db90b0f|9e8ac4975c70ddf3|76bd9d51d30f3f77|-202370705||t19031.6330961139s|a1c456b03adbfbf8|44|rds|vector|||0.002||
+ennet_themes|stem|2235361394dee482|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t19031.6729539667s|8694840c97eb280f|587|rds|vector|||2.166||
+ennet_hourly_topics|stem|672c96f89073805d|088d91aaafd227bd|dc35aa73ae236e2b|249473530||t19031.6731857767s|8604d892f80525b5|121314|rds|vector|||19.977||
+hourly_topics_csv|stem|4ac1eb883db90b0f|e2ae2ca415b93663|584e9f42e3040ada|-1486092141||t19031.6731860081s|a1c456b03adbfbf8|44|rds|vector|||0.016||
+ennet_daily_topics|stem|914547275ee824f6|343aee883fa21255|333fe28e0fc44506|451724129||t19031.6732141567s|d59d76bb47cec108|254106|rds|vector|||0.798||
+daily_topics_csv|stem|4ac1eb883db90b0f|3b821cd1b939ea68|374f8a839d8fcb48|-1892082712||t19031.6732148975s|a1c456b03adbfbf8|44|rds|vector|||0.047||
+ennet_monthly_topics|stem|ccf4c53dfe1db9e5|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t19031.6732417497s|26904aa1a734776a|1488094|rds|vector|||0.487||
+monthly_topics_csv|stem|4ac1eb883db90b0f|91095b1942b56c4e|00c029b9eac3dac7|-595763567||t19031.6732470739s|a1c456b03adbfbf8|44|rds|vector|||0.337||
+ennet_dailies|stem|a8e6d1c22ab42903|f06a8bc9cd469ee8|8693c39b8d82930d|-1814452261||t19031.67550391s|1717550971ad9deb|5837310|rds|vector|||187.589|cannot open URL httpsraw.githubusercontent.comkatilingbanennet_dbmaindataennet_topics_December_2021.csv HTTP status was 404 Not Found|
+daily_interactions|stem|10ce7da5ba1c57ca|c66d9eda5d63cc0f|2d28bb5edef026f5|1427371126||t19031.6757905342s|b73a5dbacaf0aa98|32518|rds|vector|||24.733||
+daily_interactions_csv|stem|4ac1eb883db90b0f|763ce2d9ea42f434|9ff8f76d945e6377|-1388465918||t19031.6757909508s|a1c456b03adbfbf8|44|rds|vector|||0.032||
+weekly_interactions|stem|9bf16bc0730c5ced|81f5aea1ed7856e2|2d28bb5edef026f5|-982791415||t19031.676223502s|82df6769bc367a05|7689|rds|vector|||31.968||
+weekly_interactions_csv|stem|4ac1eb883db90b0f|feb6f3a69d96efc0|0b9d47891945911b|173101903||t19031.6762236872s|a1c456b03adbfbf8|44|rds|vector|||0.007||
+monthly_interactions|stem|24d7647ba68539b1|b573817db063976b|2d28bb5edef026f5|-1225178996||t19031.6764067916s|bdc04e9586071a1b|3518|rds|vector|||11.178||
+monthly_interactions_csv|stem|4ac1eb883db90b0f|f5a3bbf634645c4e|1a04951b3093720d|536682391||t19031.6764068842s|a1c456b03adbfbf8|44|rds|vector|||0.003||
+yearly_interactions|stem|1894512c786b6ae7|f3fdf9b14c36c4e0|2d28bb5edef026f5|1059670289||t19031.6765163771s|5a4ddc27476eb085|1446|rds|vector|||4.323||
+yearly_interactions_csv|stem|4ac1eb883db90b0f|9e8ac4975c70ddf3|df9efa1d705ec965|-202370705||t19031.6765164697s|a1c456b03adbfbf8|44|rds|vector|||0.002||
 write_monthly_topics|function|3057d67b278ae4c2||||||||||||||
 get_hourly_topics|function|27adcd58efce7aa4||||||||||||||
 write_hourly_topics|function|939fe637f4aabbcb||||||||||||||
@@ -31,5 +31,5 @@ clean_hourlies|function|aafaa3682c06e2a3||||||||||||||
 reports|object|1eb1bc8d77111ded||||||||||||||
 data|object|db6d69bc9bc71c58||||||||||||||
 write_discussions|function|b866f10999484577||||||||||||||
-ennet_discussions|stem|910cb3ba3722f688|6fbf17a0901f5b56|c8d3e9507fb00ca2|-372985748||t19031.6571504587s|70cf62d803a12ea2|4050434|rds|vector|||2074.238||
-discussions_csv|stem|4ac1eb883db90b0f|b3f19095cd760b22|84869e8edbbd83e0|1341829522||t19031.6571522643s|a1c456b03adbfbf8|44|rds|vector|||0.128||
+ennet_discussions|stem|910cb3ba3722f688|6fbf17a0901f5b56|c8d3e9507fb00ca2|-372985748||t19031.7060984432s|70cf62d803a12ea2|4050434|rds|vector|||2552.498||
+discussions_csv|stem|4ac1eb883db90b0f|b3f19095cd760b22|84869e8edbbd83e0|1341829522||t19031.7061000636s|a1c456b03adbfbf8|44|rds|vector|||0.12||
