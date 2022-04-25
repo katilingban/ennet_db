@@ -16,6 +16,10 @@ jobs:
           apt-get update && apt-get install -y --no-install-recommends \
           git-crypt libxt6 libglpk-dev
           
+      - name: Trust git repo
+        run: |
+          git config --global --add safe.directory /__w/ennet_db/ennet_db
+          
       - name: Install packages from renv.lock (with cache)
         if: ${{ !env.ACT }}  
         uses: r-lib/actions/setup-renv@master
