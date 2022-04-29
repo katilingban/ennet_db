@@ -2,13 +2,13 @@ name: process_ennet_interactions
 
 on:
   workflow_dispatch:
-    branches:
-    - '*'
+    # branches:
+    # - '*'
 
 jobs:
   process_ennet_interactions:
     runs-on: ubuntu-latest
-    container: rocker/tidyverse:4.1.2
+    container: rocker/tidyverse:4.2.0
     steps:
       - uses: actions/checkout@v2
       

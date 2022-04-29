@@ -2,13 +2,13 @@ name: get_ennet_discussions
 
 on:
   workflow_dispatch:
-    branches:
-      - '*'
+    # branches:
+    #   - '*'
 
 jobs:
   get_ennet_discussions:
     runs-on: ubuntu-latest
-    container: rocker/tidyverse:4.1.2
+    container: rocker/tidyverse:4.2.0
     steps:
       - uses: actions/checkout@v2
         with:
