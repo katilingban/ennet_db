@@ -2,13 +2,13 @@ name: clean_hourly_topics
 
 on:
   workflow_dispatch:
-    branches:
-      - '*'
+    # branches:
+    #   - '*'
 
 jobs:
   clean_hourly_topics:
     runs-on: ubuntu-latest
-    container: rocker/tidyverse:4.1.2
+    container: rocker/tidyverse:4.2.0
     steps:
       - uses: actions/checkout@v2
       
