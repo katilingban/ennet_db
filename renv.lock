@@ -466,10 +466,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.15.0",
+      "Version": "0.15.4",
       "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "36c1a644e5b0ba8050f40f07ea1dae62",
+      "Repository": "CRAN",
+      "Hash": "c1078316e1d4f70275fc1ea60c0bc431",
       "Requirements": []
     },
     "rlang": {
