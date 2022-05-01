@@ -9,4 +9,4 @@ staging/
 .RData
 .Ruserdata
 .DS_Store
-_targets
+_targets/

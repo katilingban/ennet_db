@@ -47,10 +47,10 @@ jobs:
           targets::tar_make(yearly_interactions_csv)
         shell: Rscript {0}
       
-      - name: Get en-net discussions
-        run: |
-          targets::tar_make(discussions_csv)          
-        shell: Rscript {0}
+      # - name: Get en-net discussions
+      #   run: |
+      #     targets::tar_make(discussions_csv)          
+      #   shell: Rscript {0}
           
       - name: Commit and push files
         run: |
