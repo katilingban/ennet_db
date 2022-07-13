@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.0",
+    "Version": "4.2.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -184,8 +184,8 @@
       "RemoteUsername": "katilingban",
       "RemoteRepo": "ennet",
       "RemoteRef": "master",
-      "RemoteSha": "5432e737fa1e899462ea0f986e1761013e8755d4",
-      "Hash": "9aa1460a3d242421c4b4fe9f8fd851ab",
+      "RemoteSha": "7cacb733f6cff19a37078126d6e9fe4694af242b",
+      "Hash": "039a6241f62f85c2e3a1c540d4e3c035",
       "Requirements": [
         "dplyr",
         "lubridate",
