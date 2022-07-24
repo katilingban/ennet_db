@@ -25,12 +25,8 @@
 "Adolescent nutrition",2021-06-06,37,37557,0,522,196
 "Adolescent nutrition",2021-06-13,37,38123,0,566,196
 "Adolescent nutrition",2021-06-20,37,38566,0,443,196
-"Adolescent nutrition",2021-06-27,37,39087,0,521,196
-"Adolescent nutrition",2021-07-04,37,39661,0,574,196
-"Adolescent nutrition",2021-07-11,37,40139,0,478,196
-"Adolescent nutrition",2021-07-18,37,40500,0,361,196
-"Adolescent nutrition",2021-07-25,37,40927,0,427,196
-"Adolescent nutrition",2021-08-01,37,41884,0,957,145
+"Adolescent nutrition",2021-06-27,37,38877,0,311,112
+"Adolescent nutrition",2021-08-01,37,41884,0,3007,145
 "Adolescent nutrition",2021-09-26,38,44777,1,2893,120
 "Adolescent nutrition",2021-10-03,38,45397,0,620,210
 "Adolescent nutrition",2021-10-10,38,46059,0,662,210
@@ -53,7 +49,11 @@
 "Adolescent nutrition",2022-04-10,50,127688,0,5243,217
 "Adolescent nutrition",2022-04-17,50,131476,0,3788,186
 "Adolescent nutrition",2022-04-24,50,136263,0,4787,186
-"Adolescent nutrition",2022-05-29,50,138483,0,2220,124
+"Adolescent nutrition",2022-05-01,50,136817,0,554,217
+"Adolescent nutrition",2022-05-08,50,137213,0,396,217
+"Adolescent nutrition",2022-05-15,50,137653,0,440,217
+"Adolescent nutrition",2022-05-22,50,138008,0,355,217
+"Adolescent nutrition",2022-05-29,50,138483,0,475,217
 "Adolescent nutrition",2022-06-05,50,138956,0,473,217
 "Adolescent nutrition",2022-06-12,50,139489,0,533,217
 "Adolescent nutrition",2022-06-19,50,139936,0,447,217
@@ -61,7 +61,7 @@
 "Adolescent nutrition",2022-07-03,47,131430,-3,-9106,180
 "Adolescent nutrition",2022-07-10,47,131946,0,516,120
 "Adolescent nutrition",2022-07-17,47,132272,0,326,210
-"Adolescent nutrition",2022-07-24,47,132328,0,56,30
+"Adolescent nutrition",2022-07-24,47,132330,0,58,30
 "Announcements & Nutritionists needed",2020-12-27,0,4726879,0,0,8677
 "Announcements & Nutritionists needed",2021-01-03,0,4753868,0,26989,8652
 "Announcements & Nutritionists needed",2021-01-10,0,4780824,0,26956,8652
@@ -88,12 +88,8 @@
 "Announcements & Nutritionists needed",2021-06-06,0,5313009,0,15200,8981
 "Announcements & Nutritionists needed",2021-06-13,0,5338641,0,25632,8981
 "Announcements & Nutritionists needed",2021-06-20,0,5360608,0,21967,8981
-"Announcements & Nutritionists needed",2021-06-27,0,5395694,0,35086,9029
-"Announcements & Nutritionists needed",2021-07-04,0,5427353,0,31659,9093
-"Announcements & Nutritionists needed",2021-07-11,0,5450041,0,22688,9093
-"Announcements & Nutritionists needed",2021-07-18,0,5471896,0,21855,9093
-"Announcements & Nutritionists needed",2021-07-25,0,5494151,0,22255,9093
-"Announcements & Nutritionists needed",2021-08-01,0,5519708,0,25557,6535
+"Announcements & Nutritionists needed",2021-06-27,0,5378174,0,17566,5132
+"Announcements & Nutritionists needed",2021-08-01,0,5519708,0,141534,6535
 "Announcements & Nutritionists needed",2021-09-26,0,5644677,0,124969,5300
 "Announcements & Nutritionists needed",2021-10-03,0,5675134,0,30457,9275
 "Announcements & Nutritionists needed",2021-10-10,0,5698485,0,23351,9275
@@ -116,15 +112,19 @@
 "Announcements & Nutritionists needed",2022-04-10,0,9365150,0,233200,9576
 "Announcements & Nutritionists needed",2022-04-17,0,9545633,0,180483,8208
 "Announcements & Nutritionists needed",2022-04-24,0,9778033,0,232400,8208
-"Announcements & Nutritionists needed",2022-05-29,0,9637840,0,-140193,5368
-"Announcements & Nutritionists needed",2022-06-05,0,9655721,0,17881,9394
+"Announcements & Nutritionists needed",2022-05-01,0,9812833,0,34800,9639
+"Announcements & Nutritionists needed",2022-05-08,0,9833274,0,20441,9639
+"Announcements & Nutritionists needed",2022-05-15,0,9854994,0,21720,9639
+"Announcements & Nutritionists needed",2022-05-22,0,9872073,0,17079,9639
+"Announcements & Nutritionists needed",2022-05-29,0,9895486,0,23413,9499
+"Announcements & Nutritionists needed",2022-06-05,0,9655721,0,-239765,9394
 "Announcements & Nutritionists needed",2022-06-12,0,9680755,0,25034,9394
 "Announcements & Nutritionists needed",2022-06-19,0,9698977,0,18222,9394
 "Announcements & Nutritionists needed",2022-06-26,0,9978597,0,279620,9236
 "Announcements & Nutritionists needed",2022-07-03,0,9055519,0,-923078,7578
 "Announcements & Nutritionists needed",2022-07-10,0,9078958,0,23439,5052
 "Announcements & Nutritionists needed",2022-07-17,0,9098617,0,19659,8841
-"Announcements & Nutritionists needed",2022-07-24,0,9099803,0,1186,1263
+"Announcements & Nutritionists needed",2022-07-24,0,9100980,0,2363,1263
 "Assessment and Surveillance",2020-12-27,2107,2409026,0,0,3190
 "Assessment and Surveillance",2021-01-03,2096,2408734,-11,-292,3185
 "Assessment and Surveillance",2021-01-10,2096,2421252,0,12518,3185
@@ -151,12 +151,8 @@
 "Assessment and Surveillance",2021-06-06,2118,2655494,-8,-2102,3206
 "Assessment and Surveillance",2021-06-13,2118,2667489,0,11995,3206
 "Assessment and Surveillance",2021-06-20,2118,2677051,0,9562,3206
-"Assessment and Surveillance",2021-06-27,2119,2690010,1,12959,3182
-"Assessment and Surveillance",2021-07-04,2074,2674808,-45,-15202,3150
-"Assessment and Surveillance",2021-07-11,2074,2687286,0,12478,3150
-"Assessment and Surveillance",2021-07-18,2074,2697396,0,10110,3150
-"Assessment and Surveillance",2021-07-25,2074,2707903,0,10507,3150
-"Assessment and Surveillance",2021-08-01,2134,2759453,60,51550,2330
+"Assessment and Surveillance",2021-06-27,2118,2684752,0,7701,1832
+"Assessment and Surveillance",2021-08-01,2134,2759453,16,74701,2330
 "Assessment and Surveillance",2021-09-26,2467,3565368,333,805915,2252
 "Assessment and Surveillance",2021-10-03,2469,3580121,2,14753,3941
 "Assessment and Surveillance",2021-10-10,2469,3593773,0,13652,3941
@@ -179,15 +175,19 @@
 "Assessment and Surveillance",2022-04-10,2529,5232991,0,101468,4060
 "Assessment and Surveillance",2022-04-17,2529,5309272,0,76281,3480
 "Assessment and Surveillance",2022-04-24,2529,5405156,0,95884,3480
-"Assessment and Surveillance",2022-05-29,2526,5427762,-3,22606,2316
-"Assessment and Surveillance",2022-06-05,2526,5439084,0,11322,4053
+"Assessment and Surveillance",2022-05-01,2505,5346671,-24,-58485,4025
+"Assessment and Surveillance",2022-05-08,2506,5357508,1,10837,4025
+"Assessment and Surveillance",2022-05-15,2508,5369596,2,12088,4025
+"Assessment and Surveillance",2022-05-22,2510,5379366,2,9770,4025
+"Assessment and Surveillance",2022-05-29,2550,5481394,40,102028,4041
+"Assessment and Surveillance",2022-06-05,2526,5439084,-24,-42310,4053
 "Assessment and Surveillance",2022-06-12,2530,5451992,4,12908,4053
 "Assessment and Surveillance",2022-06-19,2530,5462934,0,10942,4053
 "Assessment and Surveillance",2022-06-26,2554,5531444,24,68510,4061
 "Assessment and Surveillance",2022-07-03,2530,5481791,-24,-49653,3498
 "Assessment and Surveillance",2022-07-10,2530,5532832,0,51041,2332
 "Assessment and Surveillance",2022-07-17,2530,5543604,0,10772,4081
-"Assessment and Surveillance",2022-07-24,2531,5544790,1,1186,583
+"Assessment and Surveillance",2022-07-24,2531,5545454,1,1850,583
 "Coverage assessment",2020-12-27,334,537232,0,0,651
 "Coverage assessment",2021-01-03,328,540465,-6,3233,651
 "Coverage assessment",2021-01-10,328,557016,0,16551,651
@@ -214,12 +214,8 @@
 "Coverage assessment",2021-06-06,332,719004,0,1779,665
 "Coverage assessment",2021-06-13,332,721234,0,2230,665
 "Coverage assessment",2021-06-20,332,722889,0,1655,665
-"Coverage assessment",2021-06-27,332,725025,0,2136,659
-"Coverage assessment",2021-07-04,321,714480,-11,-10545,651
-"Coverage assessment",2021-07-11,321,716447,0,1967,651
-"Coverage assessment",2021-07-18,321,718188,0,1741,651
-"Coverage assessment",2021-07-25,321,719906,0,1718,651
-"Coverage assessment",2021-08-01,332,734604,11,14698,475
+"Coverage assessment",2021-06-27,332,724284,0,1395,380
+"Coverage assessment",2021-08-01,332,734604,0,10320,475
 "COVID-19 and nutrition programming",2020-12-27,131,67544,0,0,588
 "COVID-19 and nutrition programming",2021-01-03,131,69646,0,2102,588
 "COVID-19 and nutrition programming",2021-01-10,131,71967,0,2321,588
@@ -246,12 +242,8 @@
 "COVID-19 and nutrition programming",2021-06-06,136,112490,0,1706,609
 "COVID-19 and nutrition programming",2021-06-13,136,114400,0,1910,609
 "COVID-19 and nutrition programming",2021-06-20,136,115961,0,1561,609
-"COVID-19 and nutrition programming",2021-06-27,136,118254,0,2293,591
-"COVID-19 and nutrition programming",2021-07-04,128,113733,-8,-4521,567
-"COVID-19 and nutrition programming",2021-07-11,128,115699,0,1966,567
-"COVID-19 and nutrition programming",2021-07-18,128,117673,0,1974,567
-"COVID-19 and nutrition programming",2021-07-25,128,119401,0,1728,567
-"COVID-19 and nutrition programming",2021-08-01,136,128130,8,8729,435
+"COVID-19 and nutrition programming",2021-06-27,136,117558,0,1597,348
+"COVID-19 and nutrition programming",2021-08-01,136,128130,0,10572,435
 "COVID-19 and nutrition programming",2021-09-26,137,139084,1,10954,348
 "COVID-19 and nutrition programming",2021-10-03,137,139049,0,-35,602
 "COVID-19 and nutrition programming",2021-10-10,137,141145,0,2096,602
@@ -274,15 +266,19 @@
 "COVID-19 and nutrition programming",2022-04-10,138,384151,0,15369,616
 "COVID-19 and nutrition programming",2022-04-17,138,395329,0,11178,528
 "COVID-19 and nutrition programming",2022-04-24,138,409695,0,14366,528
-"COVID-19 and nutrition programming",2022-05-29,138,412246,0,2551,352
-"COVID-19 and nutrition programming",2022-06-05,138,413692,0,1446,616
+"COVID-19 and nutrition programming",2022-05-01,138,408033,0,-1662,616
+"COVID-19 and nutrition programming",2022-05-08,138,409419,0,1386,616
+"COVID-19 and nutrition programming",2022-05-15,138,410907,0,1488,616
+"COVID-19 and nutrition programming",2022-05-22,138,411990,0,1083,616
+"COVID-19 and nutrition programming",2022-05-29,138,417252,0,5262,616
+"COVID-19 and nutrition programming",2022-06-05,138,413692,0,-3560,616
 "COVID-19 and nutrition programming",2022-06-12,138,415375,0,1683,616
 "COVID-19 and nutrition programming",2022-06-19,138,416893,0,1518,616
 "COVID-19 and nutrition programming",2022-06-26,138,423700,0,6807,608
 "COVID-19 and nutrition programming",2022-07-03,134,400968,-4,-22732,504
 "COVID-19 and nutrition programming",2022-07-10,134,402760,0,1792,336
 "COVID-19 and nutrition programming",2022-07-17,134,404026,0,1266,588
-"COVID-19 and nutrition programming",2022-07-24,134,404151,0,125,84
+"COVID-19 and nutrition programming",2022-07-24,134,404170,0,144,84
 "Cross-cutting issues",2020-12-27,90,196157,0,0,329
 "Cross-cutting issues",2021-01-03,90,197227,0,1070,329
 "Cross-cutting issues",2021-01-10,90,198506,0,1279,329
@@ -309,12 +305,8 @@
 "Cross-cutting issues",2021-06-06,90,218664,0,869,336
 "Cross-cutting issues",2021-06-13,90,219748,0,1084,336
 "Cross-cutting issues",2021-06-20,90,220561,0,813,336
-"Cross-cutting issues",2021-06-27,90,221565,0,1004,336
-"Cross-cutting issues",2021-07-04,90,222741,0,1176,336
-"Cross-cutting issues",2021-07-11,90,223670,0,929,336
-"Cross-cutting issues",2021-07-18,90,224517,0,847,336
-"Cross-cutting issues",2021-07-25,90,225278,0,761,336
-"Cross-cutting issues",2021-08-01,90,226148,0,870,240
+"Cross-cutting issues",2021-06-27,90,221186,0,625,192
+"Cross-cutting issues",2021-08-01,90,226148,0,4962,240
 "Cross-cutting issues",2021-09-26,90,231658,0,5510,192
 "Cross-cutting issues",2021-10-03,90,232769,0,1111,336
 "Cross-cutting issues",2021-10-10,90,233864,0,1095,336
@@ -337,15 +329,19 @@
 "Cross-cutting issues",2022-04-10,90,359254,0,8456,329
 "Cross-cutting issues",2022-04-17,90,365268,0,6014,282
 "Cross-cutting issues",2022-04-24,90,372983,0,7715,282
-"Cross-cutting issues",2022-05-29,87,366341,-3,-6642,184
-"Cross-cutting issues",2022-06-05,87,367191,0,850,322
+"Cross-cutting issues",2022-05-01,92,381737,2,8754,336
+"Cross-cutting issues",2022-05-08,92,382579,0,842,336
+"Cross-cutting issues",2022-05-15,92,383441,0,862,336
+"Cross-cutting issues",2022-05-22,92,384225,0,784,336
+"Cross-cutting issues",2022-05-29,92,385191,0,966,328
+"Cross-cutting issues",2022-06-05,87,367191,-5,-18000,322
 "Cross-cutting issues",2022-06-12,87,368134,0,943,322
 "Cross-cutting issues",2022-06-19,87,368990,0,856,322
 "Cross-cutting issues",2022-06-26,92,388911,5,19921,310
 "Cross-cutting issues",2022-07-03,79,317435,-13,-71476,240
 "Cross-cutting issues",2022-07-10,79,318572,0,1137,160
 "Cross-cutting issues",2022-07-17,79,319323,0,751,280
-"Cross-cutting issues",2022-07-24,79,319388,0,65,40
+"Cross-cutting issues",2022-07-24,79,319399,0,76,40
 "Food assistance",2020-12-27,63,162405,0,0,222
 "Food assistance",2021-01-03,63,165892,0,3487,217
 "Food assistance",2021-01-10,63,171157,0,5265,217
@@ -372,12 +368,8 @@
 "Food assistance",2021-06-06,63,223607,0,647,224
 "Food assistance",2021-06-13,63,224349,0,742,224
 "Food assistance",2021-06-20,63,224932,0,583,224
-"Food assistance",2021-06-27,63,225685,0,753,224
-"Food assistance",2021-07-04,63,226425,0,740,224
-"Food assistance",2021-07-11,63,227118,0,693,224
-"Food assistance",2021-07-18,63,227854,0,736,224
-"Food assistance",2021-07-25,63,228457,0,603,224
-"Food assistance",2021-08-01,63,229101,0,644,160
+"Food assistance",2021-06-27,63,225388,0,456,128
+"Food assistance",2021-08-01,63,229101,0,3713,160
 "Food assistance",2021-09-26,64,232986,1,3885,128
 "Food assistance",2021-10-03,64,233761,0,775,224
 "Food assistance",2021-10-10,64,234500,0,739,224
@@ -400,15 +392,19 @@
 "Food assistance",2022-04-10,67,327548,0,5818,231
 "Food assistance",2022-04-17,67,331741,0,4193,198
 "Food assistance",2022-04-24,67,337091,0,5350,198
-"Food assistance",2022-05-29,67,329857,0,-7234,128
-"Food assistance",2022-06-05,67,330439,0,582,224
+"Food assistance",2022-05-01,67,337742,0,651,231
+"Food assistance",2022-05-08,67,338316,0,574,231
+"Food assistance",2022-05-15,67,338954,0,638,231
+"Food assistance",2022-05-22,67,339469,0,515,231
+"Food assistance",2022-05-29,67,340069,0,600,227
+"Food assistance",2022-06-05,67,330439,0,-9630,224
 "Food assistance",2022-06-12,67,331134,0,695,224
 "Food assistance",2022-06-19,67,331759,0,625,224
 "Food assistance",2022-06-26,67,342751,0,10992,224
 "Food assistance",2022-07-03,66,335283,-1,-7468,192
 "Food assistance",2022-07-10,66,337991,0,2708,128
 "Food assistance",2022-07-17,66,338559,0,568,224
-"Food assistance",2022-07-24,66,338612,0,53,32
+"Food assistance",2022-07-24,66,338621,0,62,32
 "Infant and young child feeding interventions",2020-12-27,723,912954,0,0,1430
 "Infant and young child feeding interventions",2021-01-03,721,910789,-2,-2165,1400
 "Infant and young child feeding interventions",2021-01-10,721,916644,0,5855,1400
@@ -435,12 +431,8 @@
 "Infant and young child feeding interventions",2021-06-06,741,1021273,-2,3385,1526
 "Infant and young child feeding interventions",2021-06-13,744,1026670,3,5397,1526
 "Infant and young child feeding interventions",2021-06-20,744,1030907,0,4237,1526
-"Infant and young child feeding interventions",2021-06-27,748,1035896,4,4989,1481
-"Infant and young child feeding interventions",2021-07-04,734,1024421,-14,-11475,1421
-"Infant and young child feeding interventions",2021-07-11,734,1028810,0,4389,1421
-"Infant and young child feeding interventions",2021-07-18,735,1032714,1,3904,1421
-"Infant and young child feeding interventions",2021-07-25,735,1036404,0,3690,1421
-"Infant and young child feeding interventions",2021-08-01,785,1060991,50,24587,1110
+"Infant and young child feeding interventions",2021-06-27,748,1033961,4,3054,872
+"Infant and young child feeding interventions",2021-08-01,785,1060991,37,27030,1110
 "Infant and young child feeding interventions",2021-09-26,806,1090455,21,29464,920
 "Infant and young child feeding interventions",2021-10-03,806,1095625,0,5170,1610
 "Infant and young child feeding interventions",2021-10-10,806,1100980,0,5355,1610
@@ -463,15 +455,19 @@
 "Infant and young child feeding interventions",2022-04-10,843,1733189,0,40974,1631
 "Infant and young child feeding interventions",2022-04-17,843,1762748,0,29559,1398
 "Infant and young child feeding interventions",2022-04-24,844,1800933,1,38185,1398
-"Infant and young child feeding interventions",2022-05-29,837,1716782,-7,-84151,916
-"Infant and young child feeding interventions",2022-06-05,842,1721040,5,4258,1603
+"Infant and young child feeding interventions",2022-05-01,859,1800154,15,-779,1687
+"Infant and young child feeding interventions",2022-05-08,859,1804382,0,4228,1687
+"Infant and young child feeding interventions",2022-05-15,859,1808979,0,4597,1687
+"Infant and young child feeding interventions",2022-05-22,859,1812817,0,3838,1687
+"Infant and young child feeding interventions",2022-05-29,879,1859625,20,46808,1639
+"Infant and young child feeding interventions",2022-06-05,842,1721040,-37,-138585,1603
 "Infant and young child feeding interventions",2022-06-12,843,1725805,1,4765,1603
 "Infant and young child feeding interventions",2022-06-19,843,1730075,0,4270,1603
 "Infant and young child feeding interventions",2022-06-26,888,1879398,45,149323,1639
 "Infant and young child feeding interventions",2022-07-03,881,1850179,-7,-29219,1482
 "Infant and young child feeding interventions",2022-07-10,881,1855614,0,5435,988
 "Infant and young child feeding interventions",2022-07-17,881,1859965,0,4351,1729
-"Infant and young child feeding interventions",2022-07-24,881,1860462,0,497,247
+"Infant and young child feeding interventions",2022-07-24,881,1860504,0,539,247
 "Management of At Risk Mothers and Infants",2020-12-27,66,111627,0,0,189
 "Management of At Risk Mothers and Infants",2021-01-03,66,112346,0,719,189
 "Management of At Risk Mothers and Infants",2021-01-10,66,113133,0,787,189
@@ -494,12 +490,8 @@
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-06-06,73,129596,0,717,238
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-06-13,73,130443,0,847,238
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-06-20,73,131121,0,678,238
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-06-27,77,132690,4,1569,247
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-07-04,71,128019,-6,-4671,259
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-07-11,72,128856,1,837,259
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-07-18,72,129549,0,693,259
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-07-25,72,130292,0,743,259
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-08-01,78,137759,6,7467,200
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-06-27,73,131593,0,472,136
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-08-01,78,137759,5,6166,200
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-09-26,78,142805,0,5046,168
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-10-03,78,143708,0,903,294
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2021-10-10,78,144618,0,910,294
@@ -522,15 +514,19 @@
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-04-10,90,265937,0,7941,315
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-04-17,90,271607,0,5670,270
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-04-24,90,278981,0,7374,270
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-05-29,94,263816,4,-15165,184
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-06-05,98,264783,4,967,322
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-05-01,90,280010,0,1029,315
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-05-08,90,280812,0,802,315
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-05-15,90,281681,0,869,315
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-05-22,90,282416,0,735,315
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-05-29,102,284186,12,1770,319
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-06-05,98,264783,-4,-19403,322
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-06-12,100,265852,2,1069,322
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-06-19,107,266930,7,1078,322
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-06-26,125,288794,18,21864,322
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-07-03,117,257386,-8,-31408,276
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-07-10,117,258411,0,1025,184
 "Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-07-17,117,259308,0,897,322
-"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-07-24,117,259414,0,106,46
+"Management of small and nutritionally at risk infants under six months and their mothers (MAMI)",2022-07-24,117,259424,0,116,46
 "Management of wasting/acute malnutrition",2020-12-27,1850,2549403,0,0,3727
 "Management of wasting/acute malnutrition",2021-01-03,1828,2550355,-22,952,3682
 "Management of wasting/acute malnutrition",2021-01-10,1829,2562973,1,12618,3682
@@ -557,12 +553,8 @@
 "Management of wasting/acute malnutrition",2021-06-06,1915,2832245,-4,5671,3822
 "Management of wasting/acute malnutrition",2021-06-13,1917,2845422,2,13177,3822
 "Management of wasting/acute malnutrition",2021-06-20,1917,2855823,0,10401,3822
-"Management of wasting/acute malnutrition",2021-06-27,1921,2870626,4,14803,3810
-"Management of wasting/acute malnutrition",2021-07-04,1901,2854506,-20,-16120,3794
-"Management of wasting/acute malnutrition",2021-07-11,1906,2865649,5,11143,3794
-"Management of wasting/acute malnutrition",2021-07-18,1905,2875044,-1,9395,3794
-"Management of wasting/acute malnutrition",2021-07-25,1905,2884982,0,9938,3794
-"Management of wasting/acute malnutrition",2021-08-01,1934,2929177,29,44195,2775
+"Management of wasting/acute malnutrition",2021-06-27,1917,2863437,0,7614,2184
+"Management of wasting/acute malnutrition",2021-08-01,1934,2929177,17,65740,2775
 "Management of wasting/acute malnutrition",2021-09-26,1943,2996140,9,66963,2236
 "Management of wasting/acute malnutrition",2021-10-03,1943,3009423,0,13283,3913
 "Management of wasting/acute malnutrition",2021-10-10,1945,3022098,2,12675,3913
@@ -585,15 +577,19 @@
 "Management of wasting/acute malnutrition",2022-04-10,1969,4554648,0,97591,3983
 "Management of wasting/acute malnutrition",2022-04-17,1969,4627502,0,72854,3414
 "Management of wasting/acute malnutrition",2022-04-24,1972,4718671,3,91169,3414
-"Management of wasting/acute malnutrition",2022-05-29,1978,4717254,6,-1417,2268
-"Management of wasting/acute malnutrition",2022-06-05,1979,4727735,1,10481,3969
+"Management of wasting/acute malnutrition",2022-05-01,2000,4742962,28,24291,4025
+"Management of wasting/acute malnutrition",2022-05-08,2000,4753015,0,10053,4025
+"Management of wasting/acute malnutrition",2022-05-15,2000,4765873,0,12858,4025
+"Management of wasting/acute malnutrition",2022-05-22,2000,4774781,0,8908,4025
+"Management of wasting/acute malnutrition",2022-05-29,2004,4805000,4,30219,3993
+"Management of wasting/acute malnutrition",2022-06-05,1979,4727735,-25,-77265,3969
 "Management of wasting/acute malnutrition",2022-06-12,1979,4740112,0,12377,3969
 "Management of wasting/acute malnutrition",2022-06-19,1979,4749801,0,9689,3969
 "Management of wasting/acute malnutrition",2022-06-26,2005,4851752,26,101951,3961
 "Management of wasting/acute malnutrition",2022-07-03,1982,4730745,-23,-121007,3378
 "Management of wasting/acute malnutrition",2022-07-10,1987,4743277,5,12532,2252
 "Management of wasting/acute malnutrition",2022-07-17,1988,4753222,1,9945,3941
-"Management of wasting/acute malnutrition",2022-07-24,1988,4754321,0,1099,563
+"Management of wasting/acute malnutrition",2022-07-24,1988,4754426,0,1204,563
 "Micronutrients",2020-12-27,122,244586,0,0,385
 "Micronutrients",2021-01-03,122,245817,0,1231,385
 "Micronutrients",2021-01-10,122,247326,0,1509,385
@@ -620,12 +616,8 @@
 "Micronutrients",2021-06-06,123,271484,0,1073,392
 "Micronutrients",2021-06-13,123,272742,0,1258,392
 "Micronutrients",2021-06-20,123,273735,0,993,392
-"Micronutrients",2021-06-27,123,274941,0,1206,392
-"Micronutrients",2021-07-04,123,276261,0,1320,392
-"Micronutrients",2021-07-11,123,277309,0,1048,392
-"Micronutrients",2021-07-18,123,278260,0,951,392
-"Micronutrients",2021-07-25,123,279185,0,925,392
-"Micronutrients",2021-08-01,123,280206,0,1021,280
+"Micronutrients",2021-06-27,123,274468,0,733,224
+"Micronutrients",2021-08-01,123,280206,0,5738,280
 "Micronutrients",2021-09-26,123,286267,0,6061,224
 "Micronutrients",2021-10-03,123,287436,0,1169,392
 "Micronutrients",2021-10-10,123,288716,0,1280,392
@@ -648,15 +640,19 @@
 "Micronutrients",2022-04-10,123,441080,0,9826,392
 "Micronutrients",2022-04-17,123,448120,0,7040,336
 "Micronutrients",2022-04-24,123,457177,0,9057,336
-"Micronutrients",2022-05-29,121,445140,-2,-12037,216
-"Micronutrients",2022-06-05,121,446083,0,943,378
+"Micronutrients",2022-05-01,120,449786,-3,-7391,385
+"Micronutrients",2022-05-08,120,450688,0,902,385
+"Micronutrients",2022-05-15,120,451648,0,960,385
+"Micronutrients",2022-05-22,120,452408,0,760,385
+"Micronutrients",2022-05-29,123,461970,3,9562,381
+"Micronutrients",2022-06-05,121,446083,-2,-15887,378
 "Micronutrients",2022-06-12,121,447113,0,1030,378
 "Micronutrients",2022-06-19,121,448013,0,900,378
 "Micronutrients",2022-06-26,123,466088,2,18075,378
 "Micronutrients",2022-07-03,122,449112,-1,-16976,324
 "Micronutrients",2022-07-10,122,450179,0,1067,216
 "Micronutrients",2022-07-17,122,451019,0,840,378
-"Micronutrients",2022-07-24,122,451117,0,98,54
+"Micronutrients",2022-07-24,122,451129,0,110,54
 "Multi-sector nutrition programming",2020-12-27,19,7177,0,0,21
 "Multi-sector nutrition programming",2021-01-03,19,7255,0,78,21
 "Multi-sector nutrition programming",2021-01-10,19,7346,0,91,21
@@ -683,12 +679,8 @@
 "Multi-sector nutrition programming",2021-06-06,19,8796,0,60,21
 "Multi-sector nutrition programming",2021-06-13,19,8872,0,76,21
 "Multi-sector nutrition programming",2021-06-20,19,8938,0,66,21
-"Multi-sector nutrition programming",2021-06-27,19,9005,0,67,21
-"Multi-sector nutrition programming",2021-07-04,19,9066,0,61,21
-"Multi-sector nutrition programming",2021-07-11,19,9127,0,61,21
-"Multi-sector nutrition programming",2021-07-18,19,9187,0,60,21
-"Multi-sector nutrition programming",2021-07-25,19,9239,0,52,21
-"Multi-sector nutrition programming",2021-08-01,19,9303,0,64,15
+"Multi-sector nutrition programming",2021-06-27,19,8975,0,37,12
+"Multi-sector nutrition programming",2021-08-01,19,9303,0,328,15
 "Other thematic area",2020-12-27,90,196951,0,0,364
 "Other thematic area",2021-01-03,90,198057,0,1106,364
 "Other thematic area",2021-01-10,90,199387,0,1330,364
@@ -715,12 +707,8 @@
 "Other thematic area",2021-06-06,91,221733,0,986,385
 "Other thematic area",2021-06-13,91,222958,0,1225,385
 "Other thematic area",2021-06-20,91,223872,0,914,385
-"Other thematic area",2021-06-27,91,225068,0,1196,379
-"Other thematic area",2021-07-04,90,225322,-1,254,371
-"Other thematic area",2021-07-11,90,226360,0,1038,371
-"Other thematic area",2021-07-18,90,227250,0,890,371
-"Other thematic area",2021-07-25,90,228062,0,812,371
-"Other thematic area",2021-08-01,92,230541,2,2479,280
+"Other thematic area",2021-06-27,91,224592,0,720,220
+"Other thematic area",2021-08-01,92,230541,1,5949,280
 "Other thematic area",2021-09-26,92,236319,0,5778,224
 "Other thematic area",2021-10-03,92,237594,0,1275,392
 "Other thematic area",2021-10-10,92,238857,0,1263,392
@@ -743,7 +731,11 @@
 "Other thematic area",2022-04-10,95,392269,1,10001,406
 "Other thematic area",2022-04-17,95,399337,0,7068,348
 "Other thematic area",2022-04-24,95,408347,0,9010,348
-"Other thematic area",2022-05-29,96,413323,1,4976,240
+"Other thematic area",2022-05-01,94,405803,-1,-2544,399
+"Other thematic area",2022-05-08,95,406695,1,892,399
+"Other thematic area",2022-05-15,95,407618,0,923,399
+"Other thematic area",2022-05-22,95,408401,0,783,399
+"Other thematic area",2022-05-29,96,413323,1,4922,411
 "Other thematic area",2022-06-05,96,414282,0,959,420
 "Other thematic area",2022-06-12,96,415428,0,1146,420
 "Other thematic area",2022-06-19,99,416520,3,1092,420
@@ -751,7 +743,7 @@
 "Other thematic area",2022-07-03,100,418889,0,885,366
 "Other thematic area",2022-07-10,100,419996,0,1107,244
 "Other thematic area",2022-07-17,100,420865,0,869,427
-"Other thematic area",2022-07-24,100,420985,0,120,61
+"Other thematic area",2022-07-24,100,420991,0,126,61
 "Partnerships for research",2020-12-27,24,53223,0,0,126
 "Partnerships for research",2021-01-03,24,53615,0,392,126
 "Partnerships for research",2021-01-10,24,54071,0,456,126
@@ -778,12 +770,8 @@
 "Partnerships for research",2021-06-06,24,61538,0,346,133
 "Partnerships for research",2021-06-13,24,61936,0,398,133
 "Partnerships for research",2021-06-20,24,62226,0,290,133
-"Partnerships for research",2021-06-27,24,62577,0,351,133
-"Partnerships for research",2021-07-04,24,63004,0,427,133
-"Partnerships for research",2021-07-11,24,63326,0,322,133
-"Partnerships for research",2021-07-18,24,63629,0,303,133
-"Partnerships for research",2021-07-25,24,63951,0,322,133
-"Partnerships for research",2021-08-01,24,64282,0,331,95
+"Partnerships for research",2021-06-27,24,62448,0,222,76
+"Partnerships for research",2021-08-01,24,64282,0,1834,95
 "Partnerships for research",2021-09-26,25,66118,1,1836,76
 "Partnerships for research",2021-10-03,25,66494,0,376,133
 "Partnerships for research",2021-10-10,25,66903,0,409,133
@@ -806,7 +794,11 @@
 "Partnerships for research",2022-04-10,25,118514,0,3452,140
 "Partnerships for research",2022-04-17,25,121016,0,2502,120
 "Partnerships for research",2022-04-24,25,124216,0,3200,120
-"Partnerships for research",2022-05-29,25,124467,0,251,76
+"Partnerships for research",2022-05-01,25,123472,0,-744,133
+"Partnerships for research",2022-05-08,25,123717,0,245,133
+"Partnerships for research",2022-05-15,25,123978,0,261,133
+"Partnerships for research",2022-05-22,25,124193,0,215,133
+"Partnerships for research",2022-05-29,25,124467,0,274,133
 "Partnerships for research",2022-06-05,25,124713,0,246,133
 "Partnerships for research",2022-06-12,25,125029,0,316,133
 "Partnerships for research",2022-06-19,25,125327,0,298,133
@@ -814,7 +806,7 @@
 "Partnerships for research",2022-07-03,25,125910,0,223,114
 "Partnerships for research",2022-07-10,25,126198,0,288,76
 "Partnerships for research",2022-07-17,25,126447,0,249,133
-"Partnerships for research",2022-07-24,25,126475,0,28,19
+"Partnerships for research",2022-07-24,25,126482,0,35,19
 "Prevention and management of stunting",2020-12-27,31,64785,0,0,147
 "Prevention and management of stunting",2021-01-03,31,65255,0,470,147
 "Prevention and management of stunting",2021-01-10,31,65791,0,536,147
@@ -841,12 +833,8 @@
 "Prevention and management of stunting",2021-06-06,31,74728,0,388,147
 "Prevention and management of stunting",2021-06-13,31,75187,0,459,147
 "Prevention and management of stunting",2021-06-20,31,75547,0,360,147
-"Prevention and management of stunting",2021-06-27,31,75984,0,437,147
-"Prevention and management of stunting",2021-07-04,31,76422,0,438,147
-"Prevention and management of stunting",2021-07-11,31,76824,0,402,147
-"Prevention and management of stunting",2021-07-18,31,77138,0,314,147
-"Prevention and management of stunting",2021-07-25,31,77482,0,344,147
-"Prevention and management of stunting",2021-08-01,31,77900,0,418,105
+"Prevention and management of stunting",2021-06-27,31,75805,0,258,84
+"Prevention and management of stunting",2021-08-01,31,77900,0,2095,105
 "Prevention and management of stunting",2021-09-26,31,80114,0,2214,84
 "Prevention and management of stunting",2021-10-03,31,80559,0,445,147
 "Prevention and management of stunting",2021-10-10,31,81020,0,461,147
@@ -869,7 +857,11 @@
 "Prevention and management of stunting",2022-04-10,33,137141,0,3612,147
 "Prevention and management of stunting",2022-04-17,33,139722,0,2581,126
 "Prevention and management of stunting",2022-04-24,33,142968,0,3246,126
-"Prevention and management of stunting",2022-05-29,33,144678,0,1710,84
+"Prevention and management of stunting",2022-05-01,31,136777,-2,-6191,140
+"Prevention and management of stunting",2022-05-08,31,137051,0,274,140
+"Prevention and management of stunting",2022-05-15,31,137387,0,336,140
+"Prevention and management of stunting",2022-05-22,31,137681,0,294,140
+"Prevention and management of stunting",2022-05-29,33,144678,2,6997,144
 "Prevention and management of stunting",2022-06-05,33,145032,0,354,147
 "Prevention and management of stunting",2022-06-12,33,145427,0,395,147
 "Prevention and management of stunting",2022-06-19,33,145805,0,378,147
@@ -877,7 +869,7 @@
 "Prevention and management of stunting",2022-07-03,33,146499,0,289,126
 "Prevention and management of stunting",2022-07-10,33,146890,0,391,84
 "Prevention and management of stunting",2022-07-17,33,147208,0,318,147
-"Prevention and management of stunting",2022-07-24,33,147238,0,30,21
+"Prevention and management of stunting",2022-07-24,33,147241,0,33,21
 "Scaling Up Nutrition (SUN)",2020-12-27,112,187486,0,0,355
 "Scaling Up Nutrition (SUN)",2021-01-03,112,188502,0,1016,350
 "Scaling Up Nutrition (SUN)",2021-01-10,112,189871,0,1369,350
@@ -904,12 +896,8 @@
 "Scaling Up Nutrition (SUN)",2021-06-06,109,210011,-3,-2172,357
 "Scaling Up Nutrition (SUN)",2021-06-13,109,211208,0,1197,357
 "Scaling Up Nutrition (SUN)",2021-06-20,109,212156,0,948,357
-"Scaling Up Nutrition (SUN)",2021-06-27,109,213295,0,1139,357
-"Scaling Up Nutrition (SUN)",2021-07-04,109,214466,0,1171,357
-"Scaling Up Nutrition (SUN)",2021-07-11,109,215421,0,955,357
-"Scaling Up Nutrition (SUN)",2021-07-18,109,216150,0,729,357
-"Scaling Up Nutrition (SUN)",2021-07-25,109,217054,0,904,357
-"Scaling Up Nutrition (SUN)",2021-08-01,112,221510,3,4456,260
+"Scaling Up Nutrition (SUN)",2021-06-27,109,212827,0,671,204
+"Scaling Up Nutrition (SUN)",2021-08-01,112,221510,3,8683,260
 "Scaling Up Nutrition (SUN)",2021-09-26,131,237109,19,15599,224
 "Scaling Up Nutrition (SUN)",2021-10-03,131,238338,0,1229,392
 "Scaling Up Nutrition (SUN)",2021-10-10,131,239579,0,1241,392
@@ -932,15 +920,19 @@
 "Scaling Up Nutrition (SUN)",2022-04-10,132,392308,0,9887,392
 "Scaling Up Nutrition (SUN)",2022-04-17,132,399461,0,7153,336
 "Scaling Up Nutrition (SUN)",2022-04-24,132,408381,0,8920,336
-"Scaling Up Nutrition (SUN)",2022-05-29,136,390760,4,-17621,216
-"Scaling Up Nutrition (SUN)",2022-06-05,136,391874,0,1114,378
+"Scaling Up Nutrition (SUN)",2022-05-01,132,409517,0,1136,392
+"Scaling Up Nutrition (SUN)",2022-05-08,132,410497,0,980,392
+"Scaling Up Nutrition (SUN)",2022-05-15,132,411452,0,955,392
+"Scaling Up Nutrition (SUN)",2022-05-22,132,412463,0,1011,392
+"Scaling Up Nutrition (SUN)",2022-05-29,137,413919,5,1456,384
+"Scaling Up Nutrition (SUN)",2022-06-05,136,391874,-1,-22045,378
 "Scaling Up Nutrition (SUN)",2022-06-12,136,393017,0,1143,378
 "Scaling Up Nutrition (SUN)",2022-06-19,136,394057,0,1040,378
 "Scaling Up Nutrition (SUN)",2022-06-26,137,418669,1,24612,368
 "Scaling Up Nutrition (SUN)",2022-07-03,122,363580,-15,-55089,294
 "Scaling Up Nutrition (SUN)",2022-07-10,122,364841,0,1261,196
 "Scaling Up Nutrition (SUN)",2022-07-17,122,365692,0,851,343
-"Scaling Up Nutrition (SUN)",2022-07-24,122,365799,0,107,49
+"Scaling Up Nutrition (SUN)",2022-07-24,122,365809,0,117,49
 "Simplified Approaches for the Management of Acute Malnutrition",2020-12-27,26,10059,0,0,77
 "Simplified Approaches for the Management of Acute Malnutrition",2021-01-03,26,10346,0,287,77
 "Simplified Approaches for the Management of Acute Malnutrition",2021-01-10,26,10644,0,298,77
@@ -967,12 +959,8 @@
 "Simplified Approaches for the Management of Acute Malnutrition",2021-06-06,26,15260,-4,-1004,91
 "Simplified Approaches for the Management of Acute Malnutrition",2021-06-13,26,15567,0,307,91
 "Simplified Approaches for the Management of Acute Malnutrition",2021-06-20,26,15802,0,235,91
-"Simplified Approaches for the Management of Acute Malnutrition",2021-06-27,28,16359,2,557,91
-"Simplified Approaches for the Management of Acute Malnutrition",2021-07-04,28,16445,0,86,91
-"Simplified Approaches for the Management of Acute Malnutrition",2021-07-11,28,16809,0,364,91
-"Simplified Approaches for the Management of Acute Malnutrition",2021-07-18,28,17037,0,228,91
-"Simplified Approaches for the Management of Acute Malnutrition",2021-07-25,28,17338,0,301,91
-"Simplified Approaches for the Management of Acute Malnutrition",2021-08-01,33,19428,5,2090,75
+"Simplified Approaches for the Management of Acute Malnutrition",2021-06-27,27,16015,1,213,52
+"Simplified Approaches for the Management of Acute Malnutrition",2021-08-01,33,19428,6,3413,75
 "Simplified Approaches for the Management of Acute Malnutrition",2021-09-26,33,21643,0,2215,68
 "Simplified Approaches for the Management of Acute Malnutrition",2021-10-03,33,22094,0,451,119
 "Simplified Approaches for the Management of Acute Malnutrition",2021-10-10,33,22497,0,403,119
@@ -995,7 +983,11 @@
 "Simplified Approaches for the Management of Acute Malnutrition",2022-04-10,39,71718,0,3127,126
 "Simplified Approaches for the Management of Acute Malnutrition",2022-04-17,39,73970,0,2252,108
 "Simplified Approaches for the Management of Acute Malnutrition",2022-04-24,39,76791,0,2821,108
-"Simplified Approaches for the Management of Acute Malnutrition",2022-05-29,39,78540,0,1749,76
+"Simplified Approaches for the Management of Acute Malnutrition",2022-05-01,39,77224,0,433,126
+"Simplified Approaches for the Management of Acute Malnutrition",2022-05-08,39,77520,0,296,126
+"Simplified Approaches for the Management of Acute Malnutrition",2022-05-15,39,77814,0,294,126
+"Simplified Approaches for the Management of Acute Malnutrition",2022-05-22,39,78063,0,249,126
+"Simplified Approaches for the Management of Acute Malnutrition",2022-05-29,39,78540,0,477,130
 "Simplified Approaches for the Management of Acute Malnutrition",2022-06-05,39,78862,0,322,133
 "Simplified Approaches for the Management of Acute Malnutrition",2022-06-12,39,79252,0,390,133
 "Simplified Approaches for the Management of Acute Malnutrition",2022-06-19,41,79594,2,342,133
@@ -1003,7 +995,7 @@
 "Simplified Approaches for the Management of Acute Malnutrition",2022-07-03,41,75960,1,-4022,108
 "Simplified Approaches for the Management of Acute Malnutrition",2022-07-10,41,76386,0,426,72
 "Simplified Approaches for the Management of Acute Malnutrition",2022-07-17,41,76701,0,315,126
-"Simplified Approaches for the Management of Acute Malnutrition",2022-07-24,41,76743,0,42,18
+"Simplified Approaches for the Management of Acute Malnutrition",2022-07-24,41,76753,0,52,18
 "Upcoming trainings",2020-12-27,190,381018,0,0,644
 "Upcoming trainings",2021-01-03,190,383302,0,2284,644
 "Upcoming trainings",2021-01-10,190,385707,0,2405,644
@@ -1030,12 +1022,8 @@
 "Upcoming trainings",2021-06-06,197,427125,0,1787,679
 "Upcoming trainings",2021-06-13,197,429316,0,2191,679
 "Upcoming trainings",2021-06-20,197,431003,0,1687,679
-"Upcoming trainings",2021-06-27,197,433456,0,2453,685
-"Upcoming trainings",2021-07-04,195,434724,-2,1268,693
-"Upcoming trainings",2021-07-11,195,436549,0,1825,693
-"Upcoming trainings",2021-07-18,195,437889,0,1340,693
-"Upcoming trainings",2021-07-25,195,439514,0,1625,693
-"Upcoming trainings",2021-08-01,199,442977,4,3463,505
+"Upcoming trainings",2021-06-27,197,432194,0,1191,388
+"Upcoming trainings",2021-08-01,199,442977,2,10783,505
 "Upcoming trainings",2021-09-26,200,453588,1,10611,404
 "Upcoming trainings",2021-10-03,200,455705,0,2117,707
 "Upcoming trainings",2021-10-10,200,457826,0,2121,707
@@ -1058,12 +1046,16 @@
 "Upcoming trainings",2022-04-10,249,729892,0,17994,728
 "Upcoming trainings",2022-04-17,249,742722,0,12830,624
 "Upcoming trainings",2022-04-24,249,758969,0,16247,624
-"Upcoming trainings",2022-05-29,254,766992,5,8023,420
-"Upcoming trainings",2022-06-05,254,768711,0,1719,735
+"Upcoming trainings",2022-05-01,254,772580,5,13611,749
+"Upcoming trainings",2022-05-08,254,774447,0,1867,749
+"Upcoming trainings",2022-05-15,254,776380,0,1933,749
+"Upcoming trainings",2022-05-22,254,778004,0,1624,749
+"Upcoming trainings",2022-05-29,254,779992,0,1988,741
+"Upcoming trainings",2022-06-05,254,768711,0,-11281,735
 "Upcoming trainings",2022-06-12,254,770740,0,2029,735
 "Upcoming trainings",2022-06-19,254,772598,0,1858,735
 "Upcoming trainings",2022-06-26,254,787970,0,15372,719
 "Upcoming trainings",2022-07-03,254,716958,0,-71012,582
 "Upcoming trainings",2022-07-10,254,718986,0,2028,388
 "Upcoming trainings",2022-07-17,254,720472,0,1486,679
-"Upcoming trainings",2022-07-24,254,720648,0,176,97
+"Upcoming trainings",2022-07-24,254,720661,0,189,97
