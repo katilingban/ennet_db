@@ -7,7 +7,7 @@ on:
 jobs:
   get_ennet_topics:
     runs-on: ubuntu-latest
-    container: rocker/tidyverse:4.2.0
+    container: rocker/tidyverse:4.2.1
     steps:
       - uses: actions/checkout@v2
       
