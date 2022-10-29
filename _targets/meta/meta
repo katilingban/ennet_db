@@ -10,11 +10,11 @@ discussions_csv|stem|4ac1eb883db90b0f|b3f19095cd760b22|067a3fb7ee878989|13418295
 ennet_dailies|stem|fc9dbcefd928618e|f06a8bc9cd469ee8|8693c39b8d82930d|-1814452261||t19294.887860781s|8151874569094875|10321912|rds|local|vector|||228.472|cannot open URL httpsraw.githubusercontent.comkatilingbanennet_dbmaindataennet_topics_November_2021.csv HTTP status was 404 Not Found. cannot open URL httpsraw.githubusercontent.comkatilingbanennet_dbmaindataennet_topics_December_2021.csv HTTP status was 404 Not Found|
 ennet_daily_topics|stem|f747f9ffca932b44|343aee883fa21255|333fe28e0fc44506|451724129||t19294.8188524769s|5159d639159481e2|131885|rds|local|vector|||0.065||
 ennet_discussions|stem|cd777039f65ec4bb|6fbf17a0901f5b56|c8d3e9507fb00ca2|-372985748||t19111.7476725488s|09e5caff69ebb0cf|4115364|rds|local|vector|||2053.32||
-ennet_hourly_topics|stem|bd42dde246e2a008|088d91aaafd227bd|e51da368244e6db0|249473530||t19294.8187235414s|ac8f2dd10476c5e5|126711|rds|local|vector|||6.866||
-ennet_monthly_topics|stem|e4ae7f07d908cbb4|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t19294.8189499772s|c36cc8bd00d58cc3|177055|rds|local|vector|||0.141||
-ennet_themes|stem|f961530750c3d80c|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t19266.3239115494s|bf8f9b5758e72d99|619|rds|local|vector|||2.43||
+ennet_hourly_topics|stem|3e000ea13b6e3357|088d91aaafd227bd|e51da368244e6db0|249473530||t19294.8833160969s|805d6b4efa240d84|126896|rds|local|vector|||24.11||
+ennet_monthly_topics|stem|16a55bf207687db3|b358f04c811a18bc|fc083f193fbb2e89|-85163390||t19294.8833479488s|0806592968f979f7|179466|rds|local|vector|||0.186||
+ennet_themes|stem|f961530750c3d80c|d642f0d750f65a68|c3b5fc02cdc369c1|-1005731022||t19294.8830366056s|bf8f9b5758e72d99|619|rds|local|vector|||2.485||
 ennet_topics|stem|a11afa960f68b344|088d91aaafd227bd|dc35aa73ae236e2b|944333465||t18993.5831587641s|8da6a0790e7f75bb|120516|rds|local|vector|||10.775||
-f|object|736b8c0666991fe5|||||||||||||||
+f|object|0a7ab8fff1205078|||||||||||||||
 get_daily_topics|function|8e1019f253b39be7|||||||||||||||
 get_discussions|function|615212a84d9bd43f|||||||||||||||
 get_hourly_topics|function|27adcd58efce7aa4|||||||||||||||
