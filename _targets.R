@@ -26,7 +26,7 @@ data <- tar_plan(
     name = ennet_dailies,
     command = create_db_topics_hourlies() %>%
       create_db_topics_dailies(),
-    cue = tar_cue("always")
+    cue = tar_cue("thorough")
   ),
   # ennet_dailies = create_db_topics_hourlies() %>%
   #   create_db_topics_dailies(),
