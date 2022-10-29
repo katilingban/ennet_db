@@ -22,8 +22,14 @@ data <- tar_plan(
   ennet_daily_topics = get_daily_topics(),
   ennet_monthly_topics = get_monthly_topics(),
   ennet_discussions = get_discussions(),
-  ennet_dailies = create_db_topics_hourlies() %>%
-    create_db_topics_dailies(),
+  tar_target(
+    name = ennet_dailies,
+    command = create_db_topics_hourlies() %>%
+      create_db_topics_dailies(),
+    cue = tar_cue("always")
+  ),
+  # ennet_dailies = create_db_topics_hourlies() %>%
+  #   create_db_topics_dailies(),
   daily_interactions = create_db_topics_interactions(
     ennet_dailies, id = "daily"
   ),
