@@ -39,13 +39,13 @@ jobs:
           targets::tar_make(monthly_topics_csv)
         shell: Rscript {0}
           
-      - name: Process en-net interactions
-        run: |
-          targets::tar_make(daily_interactions_csv)
-          targets::tar_make(weekly_interactions_csv) 
-          targets::tar_make(monthly_interactions_csv)
-          targets::tar_make(yearly_interactions_csv)
-        shell: Rscript {0}
+      # - name: Process en-net interactions
+      #   run: |
+      #     targets::tar_make(daily_interactions_csv)
+      #     targets::tar_make(weekly_interactions_csv) 
+      #     targets::tar_make(monthly_interactions_csv)
+      #     targets::tar_make(yearly_interactions_csv)
+      #   shell: Rscript {0}
       
       # - name: Get en-net discussions
       #   run: |
